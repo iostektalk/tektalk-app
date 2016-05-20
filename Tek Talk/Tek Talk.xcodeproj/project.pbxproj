@@ -12,6 +12,12 @@
 		4CC0F2781CEE16B000683FB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F2761CEE16B000683FB0 /* Main.storyboard */; };
 		4CC0F27A1CEE16B000683FB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F2791CEE16B000683FB0 /* Assets.xcassets */; };
 		4CC0F27D1CEE16B000683FB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F27B1CEE16B000683FB0 /* LaunchScreen.storyboard */; };
+		68CBF5A81CEEB466001A97FA /* BaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5A71CEEB466001A97FA /* BaseTabbarController.swift */; };
+		68CBF5AB1CEEB847001A97FA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5AA1CEEB847001A97FA /* BaseViewController.swift */; };
+		68CBF5BC1CEEBC75001A97FA /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5B71CEEBC75001A97FA /* ContactUsViewController.swift */; };
+		68CBF5BD1CEEBC75001A97FA /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5B91CEEBC75001A97FA /* EventViewController.swift */; };
+		68CBF5BE1CEEBC75001A97FA /* TalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5BB1CEEBC75001A97FA /* TalkViewController.swift */; };
+		68CBF5C11CEEBCA0001A97FA /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5C01CEEBCA0001A97FA /* BaseNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		4CC0F2791CEE16B000683FB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CC0F27C1CEE16B000683FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CC0F27E1CEE16B000683FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68CBF5A71CEEB466001A97FA /* BaseTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabbarController.swift; sourceTree = "<group>"; };
+		68CBF5AA1CEEB847001A97FA /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		68CBF5B71CEEBC75001A97FA /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		68CBF5B91CEEBC75001A97FA /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		68CBF5BB1CEEBC75001A97FA /* TalkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkViewController.swift; sourceTree = "<group>"; };
+		68CBF5C01CEEBCA0001A97FA /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,10 @@
 		4CC0F2711CEE16B000683FB0 /* Tek Talk */ = {
 			isa = PBXGroup;
 			children = (
+				68CBF5BF1CEEBC79001A97FA /* BaseNavigationController */,
+				68CBF5B51CEEBC75001A97FA /* Controller */,
+				68CBF5A91CEEB840001A97FA /* BaseViewController */,
+				68CBF5A61CEEB45B001A97FA /* BaseTabbarController */,
 				4CC0F2721CEE16B000683FB0 /* AppDelegate.swift */,
 				4CC0F2741CEE16B000683FB0 /* ViewController.swift */,
 				4CC0F2761CEE16B000683FB0 /* Main.storyboard */,
@@ -62,6 +78,64 @@
 				4CC0F27E1CEE16B000683FB0 /* Info.plist */,
 			);
 			path = "Tek Talk";
+			sourceTree = "<group>";
+		};
+		68CBF5A61CEEB45B001A97FA /* BaseTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				68CBF5A71CEEB466001A97FA /* BaseTabbarController.swift */,
+			);
+			path = BaseTabbarController;
+			sourceTree = "<group>";
+		};
+		68CBF5A91CEEB840001A97FA /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				68CBF5AA1CEEB847001A97FA /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		68CBF5B51CEEBC75001A97FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68CBF5B61CEEBC75001A97FA /* ContactUSViewController */,
+				68CBF5B81CEEBC75001A97FA /* EventViewController */,
+				68CBF5BA1CEEBC75001A97FA /* TalkViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		68CBF5B61CEEBC75001A97FA /* ContactUSViewController */ = {
+			isa = PBXGroup;
+			children = (
+				68CBF5B71CEEBC75001A97FA /* ContactUsViewController.swift */,
+			);
+			path = ContactUSViewController;
+			sourceTree = "<group>";
+		};
+		68CBF5B81CEEBC75001A97FA /* EventViewController */ = {
+			isa = PBXGroup;
+			children = (
+				68CBF5B91CEEBC75001A97FA /* EventViewController.swift */,
+			);
+			path = EventViewController;
+			sourceTree = "<group>";
+		};
+		68CBF5BA1CEEBC75001A97FA /* TalkViewController */ = {
+			isa = PBXGroup;
+			children = (
+				68CBF5BB1CEEBC75001A97FA /* TalkViewController.swift */,
+			);
+			path = TalkViewController;
+			sourceTree = "<group>";
+		};
+		68CBF5BF1CEEBC79001A97FA /* BaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				68CBF5C01CEEBCA0001A97FA /* BaseNavigationController.swift */,
+			);
+			path = BaseNavigationController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +170,7 @@
 				TargetAttributes = {
 					4CC0F26E1CEE16B000683FB0 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = ZLV557M852;
+						DevelopmentTeam = MYZ58W3GGH;
 					};
 				};
 			};
@@ -136,8 +210,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68CBF5C11CEEBCA0001A97FA /* BaseNavigationController.swift in Sources */,
 				4CC0F2751CEE16B000683FB0 /* ViewController.swift in Sources */,
+				68CBF5AB1CEEB847001A97FA /* BaseViewController.swift in Sources */,
+				68CBF5BC1CEEBC75001A97FA /* ContactUsViewController.swift in Sources */,
+				68CBF5BE1CEEBC75001A97FA /* TalkViewController.swift in Sources */,
 				4CC0F2731CEE16B000683FB0 /* AppDelegate.swift in Sources */,
+				68CBF5A81CEEB466001A97FA /* BaseTabbarController.swift in Sources */,
+				68CBF5BD1CEEBC75001A97FA /* EventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +334,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Tek Talk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zyncas.Tek-Talk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -266,9 +348,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Tek Talk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zyncas.Tek-Talk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -291,6 +375,7 @@
 				4CC0F2831CEE16B000683FB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

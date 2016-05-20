@@ -1,26 +1,151 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="M6Y-zZ-bWG">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Contact Us-->
+        <scene sceneID="rPf-ZA-wyu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tek_Talk" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYv-j4-Z7l" customClass="ContactUsViewController" customModule="Tek_Talk" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="tYf-wN-JQL"/>
+                        <viewControllerLayoutGuide type="bottom" id="1ba-f7-Cz2"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="YKx-su-MEP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Contact Us" image="connect" id="9Zp-kx-Qav"/>
+                    <navigationItem key="navigationItem" id="i7O-8c-rsP"/>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xL5-U7-pWB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="705" y="216"/>
+        </scene>
+        <!--Talks-->
+        <scene sceneID="Q37-jU-v2I">
+            <objects>
+                <viewController id="wod-6X-do8" customClass="TalkViewController" customModule="Tek_Talk" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Ja-KI-Ekc"/>
+                        <viewControllerLayoutGuide type="bottom" id="pxO-Kr-cN3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Aou-Lq-HLS">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Talks" image="talks" id="Jjn-x4-jY3"/>
+                    <navigationItem key="navigationItem" id="GAo-uH-6Aq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0pL-kP-Z3J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="271" y="941"/>
+        </scene>
+        <!--Events-->
+        <scene sceneID="LVj-KD-ch6">
+            <objects>
+                <navigationController id="A6J-rB-AoF" customClass="BaseNavigationController" customModule="Tek_Talk" customModuleProvider="target" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Events" image="event" id="d9R-Kr-FfD"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lT6-Z1-bKl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="5QQ-FX-m3o" kind="relationship" relationship="rootViewController" id="E9H-qD-uCe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ceX-EA-xdb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="271" y="-565"/>
+        </scene>
+        <!--Events-->
+        <scene sceneID="XQk-b7-Sm0">
+            <objects>
+                <viewController id="5QQ-FX-m3o" customClass="EventViewController" customModule="Tek_Talk" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5pY-Kd-zgb"/>
+                        <viewControllerLayoutGuide type="bottom" id="CsS-Hz-7Se"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gro-WK-lFs">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Events" image="event" id="4QP-IG-zXz"/>
+                    <navigationItem key="navigationItem" id="nMz-9M-Cuz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vsf-LA-r8C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="705" y="-558"/>
+        </scene>
+        <!--Base Tabbar Controller-->
+        <scene sceneID="oPF-rW-TLt">
+            <objects>
+                <tabBarController id="M6Y-zZ-bWG" customClass="BaseTabbarController" customModule="Tek_Talk" customModuleProvider="target" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="kDr-HF-QRv"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="eOx-Ar-JEN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="A6J-rB-AoF" kind="relationship" relationship="viewControllers" id="tYz-6U-g2z"/>
+                        <segue destination="HCx-OF-MuS" kind="relationship" relationship="viewControllers" id="YC2-ph-UNb"/>
+                        <segue destination="6HA-nm-QZx" kind="relationship" relationship="viewControllers" id="xkf-3X-eYA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dvc-bf-pKE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-449" y="-96"/>
+        </scene>
+        <!--Contact us-->
+        <scene sceneID="Up8-d3-4Yq">
+            <objects>
+                <navigationController id="HCx-OF-MuS" customClass="BaseNavigationController" customModule="Tek_Talk" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Contact us" image="connect" id="MGP-0K-qBt"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TRe-dF-6gb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYv-j4-Z7l" kind="relationship" relationship="rootViewController" id="Y3P-7E-okU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OEO-vM-MFJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="271" y="216"/>
+        </scene>
+        <!--Talks-->
+        <scene sceneID="1c4-QP-H9i">
+            <objects>
+                <navigationController id="6HA-nm-QZx" customClass="BaseNavigationController" customModule="Tek_Talk" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Talks" image="talks" id="MSP-sl-4p3"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jd3-jb-vdx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="wod-6X-do8" kind="relationship" relationship="rootViewController" id="cj7-h5-Dwr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ha6-HM-hnP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-449" y="941"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="connect" width="33" height="25"/>
+        <image name="event" width="25" height="24"/>
+        <image name="talks" width="29" height="25"/>
+    </resources>
 </document>
