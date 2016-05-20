@@ -1,0 +1,24 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
+use_frameworks!
+
+def important_pods
+    pod 'Parse'
+    pod 'CocoaLumberjack'
+end
+
+def test_pods
+    pod 'Quick'
+    pod 'Nimble'
+    pod 'OCMockito', '~> 3.0'
+end
+
+target "Tek Talk" do
+   important_pods
+end
+
+target "Tek TalkTests" do
+   important_pods
+   test_pods
+end
