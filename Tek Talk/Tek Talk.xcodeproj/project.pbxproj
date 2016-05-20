@@ -20,6 +20,8 @@
 		68CBF5BE1CEEBC75001A97FA /* TalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5BB1CEEBC75001A97FA /* TalkViewController.swift */; };
 		68CBF5C11CEEBCA0001A97FA /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5C01CEEBCA0001A97FA /* BaseNavigationController.swift */; };
 		BA77B40C1CEEF3E200BDD619 /* Tek_TalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77B40B1CEEF3E200BDD619 /* Tek_TalkTests.swift */; };
+		BA77B4151CEEFDC800BDD619 /* ApplicationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77B4141CEEFDC800BDD619 /* ApplicationHelper.swift */; };
+		BA77B4191CEEFFEF00BDD619 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77B4181CEEFFEF00BDD619 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		BA77B4091CEEF3E200BDD619 /* Tek TalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tek TalkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA77B40B1CEEF3E200BDD619 /* Tek_TalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tek_TalkTests.swift; sourceTree = "<group>"; };
 		BA77B40D1CEEF3E200BDD619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA77B4141CEEFDC800BDD619 /* ApplicationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationHelper.swift; sourceTree = "<group>"; };
+		BA77B4181CEEFFEF00BDD619 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		CEEBE7641E3E8EC08D029000 /* Pods_Tek_Talk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tek_Talk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -99,6 +103,7 @@
 		4CC0F2711CEE16B000683FB0 /* Tek Talk */ = {
 			isa = PBXGroup;
 			children = (
+				BA77B4171CEEFFE300BDD619 /* Constant */,
 				BA77B3FE1CEEF0AA00BDD619 /* Resouse */,
 				BA77B3FD1CEEF09600BDD619 /* AppDelegate */,
 				BA77B3FC1CEEF08D00BDD619 /* Base */,
@@ -248,6 +253,7 @@
 		BA77B4041CEEF0E800BDD619 /* Source code */ = {
 			isa = PBXGroup;
 			children = (
+				BA77B4131CEEFCB000BDD619 /* Utility */,
 				68CBF5B51CEEBC75001A97FA /* Controller */,
 			);
 			name = "Source code";
@@ -260,6 +266,22 @@
 				BA77B40D1CEEF3E200BDD619 /* Info.plist */,
 			);
 			path = "Tek TalkTests";
+			sourceTree = "<group>";
+		};
+		BA77B4131CEEFCB000BDD619 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				BA77B4141CEEFDC800BDD619 /* ApplicationHelper.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		BA77B4171CEEFFE300BDD619 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				BA77B4181CEEFFEF00BDD619 /* Constant.swift */,
+			);
+			name = Constant;
 			sourceTree = "<group>";
 		};
 		D8AE2405F88C4DDA393EC9C1 /* Frameworks */ = {
@@ -474,10 +496,12 @@
 			files = (
 				68CBF5C11CEEBCA0001A97FA /* BaseNavigationController.swift in Sources */,
 				68CBF5AB1CEEB847001A97FA /* BaseViewController.swift in Sources */,
+				BA77B4191CEEFFEF00BDD619 /* Constant.swift in Sources */,
 				68CBF5BC1CEEBC75001A97FA /* ContactUsViewController.swift in Sources */,
 				68CBF5BE1CEEBC75001A97FA /* TalkViewController.swift in Sources */,
 				4CC0F2731CEE16B000683FB0 /* AppDelegate.swift in Sources */,
 				68CBF5A81CEEB466001A97FA /* BaseTabbarController.swift in Sources */,
+				BA77B4151CEEFDC800BDD619 /* ApplicationHelper.swift in Sources */,
 				68CBF5BD1CEEBC75001A97FA /* EventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
