@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4CC0F2731CEE16B000683FB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0F2721CEE16B000683FB0 /* AppDelegate.swift */; };
-		4CC0F2751CEE16B000683FB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0F2741CEE16B000683FB0 /* ViewController.swift */; };
 		4CC0F2781CEE16B000683FB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F2761CEE16B000683FB0 /* Main.storyboard */; };
 		4CC0F27A1CEE16B000683FB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F2791CEE16B000683FB0 /* Assets.xcassets */; };
 		4CC0F27D1CEE16B000683FB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F27B1CEE16B000683FB0 /* LaunchScreen.storyboard */; };
@@ -23,7 +22,6 @@
 /* Begin PBXFileReference section */
 		4CC0F26F1CEE16B000683FB0 /* Tek Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tek Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC0F2721CEE16B000683FB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CC0F2741CEE16B000683FB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4CC0F2771CEE16B000683FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CC0F2791CEE16B000683FB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CC0F27C1CEE16B000683FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,15 +64,10 @@
 		4CC0F2711CEE16B000683FB0 /* Tek Talk */ = {
 			isa = PBXGroup;
 			children = (
-				68CBF5BF1CEEBC79001A97FA /* BaseNavigationController */,
-				68CBF5B51CEEBC75001A97FA /* Controller */,
-				68CBF5A91CEEB840001A97FA /* BaseViewController */,
-				68CBF5A61CEEB45B001A97FA /* BaseTabbarController */,
-				4CC0F2721CEE16B000683FB0 /* AppDelegate.swift */,
-				4CC0F2741CEE16B000683FB0 /* ViewController.swift */,
-				4CC0F2761CEE16B000683FB0 /* Main.storyboard */,
-				4CC0F2791CEE16B000683FB0 /* Assets.xcassets */,
-				4CC0F27B1CEE16B000683FB0 /* LaunchScreen.storyboard */,
+				BA77B3FE1CEEF0AA00BDD619 /* Resouse */,
+				BA77B3FD1CEEF09600BDD619 /* AppDelegate */,
+				BA77B3FC1CEEF08D00BDD619 /* Base */,
+				BA77B4041CEEF0E800BDD619 /* Source code */,
 				4CC0F27E1CEE16B000683FB0 /* Info.plist */,
 			);
 			path = "Tek Talk";
@@ -136,6 +129,82 @@
 				68CBF5C01CEEBCA0001A97FA /* BaseNavigationController.swift */,
 			);
 			path = BaseNavigationController;
+			sourceTree = "<group>";
+		};
+		BA77B3FC1CEEF08D00BDD619 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BA77B4031CEEF0E100BDD619 /* View */,
+				BA77B4021CEEF0DD00BDD619 /* Model */,
+				BA77B4011CEEF0D600BDD619 /* Controller */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		BA77B3FD1CEEF09600BDD619 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4CC0F2721CEE16B000683FB0 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BA77B3FE1CEEF0AA00BDD619 /* Resouse */ = {
+			isa = PBXGroup;
+			children = (
+				BA77B4001CEEF0B300BDD619 /* Assets */,
+				BA77B3FF1CEEF0AD00BDD619 /* Storyboard */,
+			);
+			name = Resouse;
+			sourceTree = "<group>";
+		};
+		BA77B3FF1CEEF0AD00BDD619 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4CC0F2761CEE16B000683FB0 /* Main.storyboard */,
+				4CC0F27B1CEE16B000683FB0 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		BA77B4001CEEF0B300BDD619 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4CC0F2791CEE16B000683FB0 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		BA77B4011CEEF0D600BDD619 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68CBF5BF1CEEBC79001A97FA /* BaseNavigationController */,
+				68CBF5A91CEEB840001A97FA /* BaseViewController */,
+				68CBF5A61CEEB45B001A97FA /* BaseTabbarController */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BA77B4021CEEF0DD00BDD619 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BA77B4031CEEF0E100BDD619 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BA77B4041CEEF0E800BDD619 /* Source code */ = {
+			isa = PBXGroup;
+			children = (
+				68CBF5B51CEEBC75001A97FA /* Controller */,
+			);
+			name = "Source code";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +280,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				68CBF5C11CEEBCA0001A97FA /* BaseNavigationController.swift in Sources */,
-				4CC0F2751CEE16B000683FB0 /* ViewController.swift in Sources */,
 				68CBF5AB1CEEB847001A97FA /* BaseViewController.swift in Sources */,
 				68CBF5BC1CEEBC75001A97FA /* ContactUsViewController.swift in Sources */,
 				68CBF5BE1CEEBC75001A97FA /* TalkViewController.swift in Sources */,
