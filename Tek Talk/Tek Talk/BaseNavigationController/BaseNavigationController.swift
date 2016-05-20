@@ -11,5 +11,13 @@ import UIKit
 class BaseNavigationController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Style
+        self.initStyle()
+    }
+    
+    // Style
+    private func initStyle() {
+        self.navigationBar.translucent = false;
     }
 }
