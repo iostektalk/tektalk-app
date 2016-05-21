@@ -1,721 +1,1515 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		07EA9D4C24DC98DE74C26557 /* Pods_Tek_TalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DF32011FA01F25C8AE52F5 /* Pods_Tek_TalkTests.framework */; };
-		1F27DD82FA75C5985DD107F3 /* Pods_Tek_Talk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBE7641E3E8EC08D029000 /* Pods_Tek_Talk.framework */; };
-		4CC0F2731CEE16B000683FB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0F2721CEE16B000683FB0 /* AppDelegate.swift */; };
-		4CC0F2781CEE16B000683FB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F2761CEE16B000683FB0 /* Main.storyboard */; };
-		4CC0F27A1CEE16B000683FB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F2791CEE16B000683FB0 /* Assets.xcassets */; };
-		4CC0F27D1CEE16B000683FB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F27B1CEE16B000683FB0 /* LaunchScreen.storyboard */; };
-		68CBF5A81CEEB466001A97FA /* BaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5A71CEEB466001A97FA /* BaseTabbarController.swift */; };
-		68CBF5AB1CEEB847001A97FA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5AA1CEEB847001A97FA /* BaseViewController.swift */; };
-		68CBF5BC1CEEBC75001A97FA /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5B71CEEBC75001A97FA /* ContactUsViewController.swift */; };
-		68CBF5BD1CEEBC75001A97FA /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5B91CEEBC75001A97FA /* EventViewController.swift */; };
-		68CBF5BE1CEEBC75001A97FA /* TalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5BB1CEEBC75001A97FA /* TalkViewController.swift */; };
-		68CBF5C11CEEBCA0001A97FA /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5C01CEEBCA0001A97FA /* BaseNavigationController.swift */; };
-		BA77B40C1CEEF3E200BDD619 /* Tek_TalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77B40B1CEEF3E200BDD619 /* Tek_TalkTests.swift */; };
-		BA77B4151CEEFDC800BDD619 /* ApplicationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77B4141CEEFDC800BDD619 /* ApplicationHelper.swift */; };
-		BA77B4191CEEFFEF00BDD619 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77B4181CEEFFEF00BDD619 /* Constant.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BA77B40E1CEEF3E200BDD619 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CC0F2671CEE16B000683FB0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4CC0F26E1CEE16B000683FB0;
-			remoteInfo = "Tek Talk";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		135A1B50AF2A23106AA020CC /* Pods-Tek Talk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek Talk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tek Talk/Pods-Tek Talk.debug.xcconfig"; sourceTree = "<group>"; };
-		2AA301BF9374AEC2DE70ED48 /* Pods-Tek TalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek TalkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests.release.xcconfig"; sourceTree = "<group>"; };
-		4CC0F26F1CEE16B000683FB0 /* Tek Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tek Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CC0F2721CEE16B000683FB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CC0F2771CEE16B000683FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4CC0F2791CEE16B000683FB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4CC0F27C1CEE16B000683FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4CC0F27E1CEE16B000683FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DEE8DE5905F00A5B6DF99AA /* Pods-Tek Talk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek Talk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tek Talk/Pods-Tek Talk.release.xcconfig"; sourceTree = "<group>"; };
-		64916830E95A306AF4293403 /* Pods-Tek TalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek TalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests.debug.xcconfig"; sourceTree = "<group>"; };
-		66DF32011FA01F25C8AE52F5 /* Pods_Tek_TalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tek_TalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		68CBF5A71CEEB466001A97FA /* BaseTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabbarController.swift; sourceTree = "<group>"; };
-		68CBF5AA1CEEB847001A97FA /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		68CBF5B71CEEBC75001A97FA /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
-		68CBF5B91CEEBC75001A97FA /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
-		68CBF5BB1CEEBC75001A97FA /* TalkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkViewController.swift; sourceTree = "<group>"; };
-		68CBF5C01CEEBCA0001A97FA /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
-		BA77B4091CEEF3E200BDD619 /* Tek TalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tek TalkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA77B40B1CEEF3E200BDD619 /* Tek_TalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tek_TalkTests.swift; sourceTree = "<group>"; };
-		BA77B40D1CEEF3E200BDD619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA77B4141CEEFDC800BDD619 /* ApplicationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationHelper.swift; sourceTree = "<group>"; };
-		BA77B4181CEEFFEF00BDD619 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		CEEBE7641E3E8EC08D029000 /* Pods_Tek_Talk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tek_Talk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		4CC0F26C1CEE16B000683FB0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F27DD82FA75C5985DD107F3 /* Pods_Tek_Talk.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA77B4061CEEF3E200BDD619 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07EA9D4C24DC98DE74C26557 /* Pods_Tek_TalkTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		4CC0F2661CEE16B000683FB0 = {
-			isa = PBXGroup;
-			children = (
-				4CC0F2711CEE16B000683FB0 /* Tek Talk */,
-				BA77B40A1CEEF3E200BDD619 /* Tek TalkTests */,
-				4CC0F2701CEE16B000683FB0 /* Products */,
-				874430A15C1A3B8F3F5824C8 /* Pods */,
-				D8AE2405F88C4DDA393EC9C1 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		4CC0F2701CEE16B000683FB0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4CC0F26F1CEE16B000683FB0 /* Tek Talk.app */,
-				BA77B4091CEEF3E200BDD619 /* Tek TalkTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4CC0F2711CEE16B000683FB0 /* Tek Talk */ = {
-			isa = PBXGroup;
-			children = (
-				BA77B4171CEEFFE300BDD619 /* Constant */,
-				BA77B3FE1CEEF0AA00BDD619 /* Resouse */,
-				BA77B3FD1CEEF09600BDD619 /* AppDelegate */,
-				BA77B3FC1CEEF08D00BDD619 /* Base */,
-				BA77B4041CEEF0E800BDD619 /* Source code */,
-				4CC0F27E1CEE16B000683FB0 /* Info.plist */,
-			);
-			path = "Tek Talk";
-			sourceTree = "<group>";
-		};
-		68CBF5A61CEEB45B001A97FA /* BaseTabbarController */ = {
-			isa = PBXGroup;
-			children = (
-				68CBF5A71CEEB466001A97FA /* BaseTabbarController.swift */,
-			);
-			path = BaseTabbarController;
-			sourceTree = "<group>";
-		};
-		68CBF5A91CEEB840001A97FA /* BaseViewController */ = {
-			isa = PBXGroup;
-			children = (
-				68CBF5AA1CEEB847001A97FA /* BaseViewController.swift */,
-			);
-			path = BaseViewController;
-			sourceTree = "<group>";
-		};
-		68CBF5B51CEEBC75001A97FA /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				68CBF5B61CEEBC75001A97FA /* ContactUSViewController */,
-				68CBF5B81CEEBC75001A97FA /* EventViewController */,
-				68CBF5BA1CEEBC75001A97FA /* TalkViewController */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		68CBF5B61CEEBC75001A97FA /* ContactUSViewController */ = {
-			isa = PBXGroup;
-			children = (
-				68CBF5B71CEEBC75001A97FA /* ContactUsViewController.swift */,
-			);
-			path = ContactUSViewController;
-			sourceTree = "<group>";
-		};
-		68CBF5B81CEEBC75001A97FA /* EventViewController */ = {
-			isa = PBXGroup;
-			children = (
-				68CBF5B91CEEBC75001A97FA /* EventViewController.swift */,
-			);
-			path = EventViewController;
-			sourceTree = "<group>";
-		};
-		68CBF5BA1CEEBC75001A97FA /* TalkViewController */ = {
-			isa = PBXGroup;
-			children = (
-				68CBF5BB1CEEBC75001A97FA /* TalkViewController.swift */,
-			);
-			path = TalkViewController;
-			sourceTree = "<group>";
-		};
-		68CBF5BF1CEEBC79001A97FA /* BaseNavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				68CBF5C01CEEBCA0001A97FA /* BaseNavigationController.swift */,
-			);
-			path = BaseNavigationController;
-			sourceTree = "<group>";
-		};
-		874430A15C1A3B8F3F5824C8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				135A1B50AF2A23106AA020CC /* Pods-Tek Talk.debug.xcconfig */,
-				4DEE8DE5905F00A5B6DF99AA /* Pods-Tek Talk.release.xcconfig */,
-				64916830E95A306AF4293403 /* Pods-Tek TalkTests.debug.xcconfig */,
-				2AA301BF9374AEC2DE70ED48 /* Pods-Tek TalkTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		BA77B3FC1CEEF08D00BDD619 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				BA77B4031CEEF0E100BDD619 /* View */,
-				BA77B4021CEEF0DD00BDD619 /* Model */,
-				BA77B4011CEEF0D600BDD619 /* Controller */,
-			);
-			name = Base;
-			sourceTree = "<group>";
-		};
-		BA77B3FD1CEEF09600BDD619 /* AppDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				4CC0F2721CEE16B000683FB0 /* AppDelegate.swift */,
-			);
-			name = AppDelegate;
-			sourceTree = "<group>";
-		};
-		BA77B3FE1CEEF0AA00BDD619 /* Resouse */ = {
-			isa = PBXGroup;
-			children = (
-				BA77B4001CEEF0B300BDD619 /* Assets */,
-				BA77B3FF1CEEF0AD00BDD619 /* Storyboard */,
-			);
-			name = Resouse;
-			sourceTree = "<group>";
-		};
-		BA77B3FF1CEEF0AD00BDD619 /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				4CC0F2761CEE16B000683FB0 /* Main.storyboard */,
-				4CC0F27B1CEE16B000683FB0 /* LaunchScreen.storyboard */,
-			);
-			name = Storyboard;
-			sourceTree = "<group>";
-		};
-		BA77B4001CEEF0B300BDD619 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				4CC0F2791CEE16B000683FB0 /* Assets.xcassets */,
-			);
-			name = Assets;
-			sourceTree = "<group>";
-		};
-		BA77B4011CEEF0D600BDD619 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				68CBF5BF1CEEBC79001A97FA /* BaseNavigationController */,
-				68CBF5A91CEEB840001A97FA /* BaseViewController */,
-				68CBF5A61CEEB45B001A97FA /* BaseTabbarController */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		BA77B4021CEEF0DD00BDD619 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		BA77B4031CEEF0E100BDD619 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		BA77B4041CEEF0E800BDD619 /* Source code */ = {
-			isa = PBXGroup;
-			children = (
-				BA77B4131CEEFCB000BDD619 /* Utility */,
-				68CBF5B51CEEBC75001A97FA /* Controller */,
-			);
-			name = "Source code";
-			sourceTree = "<group>";
-		};
-		BA77B40A1CEEF3E200BDD619 /* Tek TalkTests */ = {
-			isa = PBXGroup;
-			children = (
-				BA77B40B1CEEF3E200BDD619 /* Tek_TalkTests.swift */,
-				BA77B40D1CEEF3E200BDD619 /* Info.plist */,
-			);
-			path = "Tek TalkTests";
-			sourceTree = "<group>";
-		};
-		BA77B4131CEEFCB000BDD619 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				BA77B4141CEEFDC800BDD619 /* ApplicationHelper.swift */,
-			);
-			name = Utility;
-			sourceTree = "<group>";
-		};
-		BA77B4171CEEFFE300BDD619 /* Constant */ = {
-			isa = PBXGroup;
-			children = (
-				BA77B4181CEEFFEF00BDD619 /* Constant.swift */,
-			);
-			name = Constant;
-			sourceTree = "<group>";
-		};
-		D8AE2405F88C4DDA393EC9C1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CEEBE7641E3E8EC08D029000 /* Pods_Tek_Talk.framework */,
-				66DF32011FA01F25C8AE52F5 /* Pods_Tek_TalkTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		4CC0F26E1CEE16B000683FB0 /* Tek Talk */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4CC0F2811CEE16B000683FB0 /* Build configuration list for PBXNativeTarget "Tek Talk" */;
-			buildPhases = (
-				FA5B07DB4492994650612D6F /* 📦 Check Pods Manifest.lock */,
-				4CC0F26B1CEE16B000683FB0 /* Sources */,
-				4CC0F26C1CEE16B000683FB0 /* Frameworks */,
-				4CC0F26D1CEE16B000683FB0 /* Resources */,
-				929E9479ABA7E9ED98617FD4 /* 📦 Embed Pods Frameworks */,
-				0D97CF12526F17A452AE69A2 /* 📦 Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Tek Talk";
-			productName = "Tek Talk";
-			productReference = 4CC0F26F1CEE16B000683FB0 /* Tek Talk.app */;
-			productType = "com.apple.product-type.application";
-		};
-		BA77B4081CEEF3E200BDD619 /* Tek TalkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA77B4101CEEF3E200BDD619 /* Build configuration list for PBXNativeTarget "Tek TalkTests" */;
-			buildPhases = (
-				0F00DE819999C9B68797381E /* 📦 Check Pods Manifest.lock */,
-				BA77B4051CEEF3E200BDD619 /* Sources */,
-				BA77B4061CEEF3E200BDD619 /* Frameworks */,
-				BA77B4071CEEF3E200BDD619 /* Resources */,
-				177C304A91ADE79249240809 /* 📦 Embed Pods Frameworks */,
-				96231473135D3F878CD4C706 /* 📦 Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BA77B40F1CEEF3E200BDD619 /* PBXTargetDependency */,
-			);
-			name = "Tek TalkTests";
-			productName = "Tek TalkTests";
-			productReference = BA77B4091CEEF3E200BDD619 /* Tek TalkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		4CC0F2671CEE16B000683FB0 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = Zyncas;
-				TargetAttributes = {
-					4CC0F26E1CEE16B000683FB0 = {
-						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = MYZ58W3GGH;
-					};
-					BA77B4081CEEF3E200BDD619 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 4CC0F26E1CEE16B000683FB0;
-					};
-				};
-			};
-			buildConfigurationList = 4CC0F26A1CEE16B000683FB0 /* Build configuration list for PBXProject "Tek Talk" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 4CC0F2661CEE16B000683FB0;
-			productRefGroup = 4CC0F2701CEE16B000683FB0 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				4CC0F26E1CEE16B000683FB0 /* Tek Talk */,
-				BA77B4081CEEF3E200BDD619 /* Tek TalkTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		4CC0F26D1CEE16B000683FB0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CC0F27D1CEE16B000683FB0 /* LaunchScreen.storyboard in Resources */,
-				4CC0F27A1CEE16B000683FB0 /* Assets.xcassets in Resources */,
-				4CC0F2781CEE16B000683FB0 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA77B4071CEEF3E200BDD619 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0D97CF12526F17A452AE69A2 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tek Talk/Pods-Tek Talk-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0F00DE819999C9B68797381E /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		177C304A91ADE79249240809 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		929E9479ABA7E9ED98617FD4 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tek Talk/Pods-Tek Talk-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		96231473135D3F878CD4C706 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FA5B07DB4492994650612D6F /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		4CC0F26B1CEE16B000683FB0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				68CBF5C11CEEBCA0001A97FA /* BaseNavigationController.swift in Sources */,
-				68CBF5AB1CEEB847001A97FA /* BaseViewController.swift in Sources */,
-				BA77B4191CEEFFEF00BDD619 /* Constant.swift in Sources */,
-				68CBF5BC1CEEBC75001A97FA /* ContactUsViewController.swift in Sources */,
-				68CBF5BE1CEEBC75001A97FA /* TalkViewController.swift in Sources */,
-				4CC0F2731CEE16B000683FB0 /* AppDelegate.swift in Sources */,
-				68CBF5A81CEEB466001A97FA /* BaseTabbarController.swift in Sources */,
-				BA77B4151CEEFDC800BDD619 /* ApplicationHelper.swift in Sources */,
-				68CBF5BD1CEEBC75001A97FA /* EventViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA77B4051CEEF3E200BDD619 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA77B40C1CEEF3E200BDD619 /* Tek_TalkTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BA77B40F1CEEF3E200BDD619 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4CC0F26E1CEE16B000683FB0 /* Tek Talk */;
-			targetProxy = BA77B40E1CEEF3E200BDD619 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4CC0F2761CEE16B000683FB0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CC0F2771CEE16B000683FB0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4CC0F27B1CEE16B000683FB0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CC0F27C1CEE16B000683FB0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		4CC0F27F1CEE16B000683FB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4CC0F2801CEE16B000683FB0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4CC0F2821CEE16B000683FB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 135A1B50AF2A23106AA020CC /* Pods-Tek Talk.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "Tek Talk/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "zyncas.Tek-Talk";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		4CC0F2831CEE16B000683FB0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DEE8DE5905F00A5B6DF99AA /* Pods-Tek Talk.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "Tek Talk/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "zyncas.Tek-Talk";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		BA77B4111CEEF3E200BDD619 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64916830E95A306AF4293403 /* Pods-Tek TalkTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Tek TalkTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fe.Tek-TalkTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tek Talk.app/Tek Talk";
-			};
-			name = Debug;
-		};
-		BA77B4121CEEF3E200BDD619 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AA301BF9374AEC2DE70ED48 /* Pods-Tek TalkTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Tek TalkTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fe.Tek-TalkTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tek Talk.app/Tek Talk";
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		4CC0F26A1CEE16B000683FB0 /* Build configuration list for PBXProject "Tek Talk" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4CC0F27F1CEE16B000683FB0 /* Debug */,
-				4CC0F2801CEE16B000683FB0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4CC0F2811CEE16B000683FB0 /* Build configuration list for PBXNativeTarget "Tek Talk" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4CC0F2821CEE16B000683FB0 /* Debug */,
-				4CC0F2831CEE16B000683FB0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BA77B4101CEEF3E200BDD619 /* Build configuration list for PBXNativeTarget "Tek TalkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA77B4111CEEF3E200BDD619 /* Debug */,
-				BA77B4121CEEF3E200BDD619 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 4CC0F2671CEE16B000683FB0 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>07EA9D4C24DC98DE74C26557</key>
+		<dict>
+			<key>fileRef</key>
+			<string>66DF32011FA01F25C8AE52F5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0D97CF12526F17A452AE69A2</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>&#128230; Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Tek Talk/Pods-Tek Talk-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>0F00DE819999C9B68797381E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>&#128230; Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>135A1B50AF2A23106AA020CC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Tek Talk.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Tek Talk/Pods-Tek Talk.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>177C304A91ADE79249240809</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>&#128230; Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>1F27DD82FA75C5985DD107F3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CEEBE7641E3E8EC08D029000</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2AA301BF9374AEC2DE70ED48</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Tek TalkTests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2F2A0AF506039A8A9E7AFA95</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Tek Talk/Pods-Tek Talk-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>4CC0F2661CEE16B000683FB0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4CC0F2711CEE16B000683FB0</string>
+				<string>BA77B40A1CEEF3E200BDD619</string>
+				<string>4CC0F2701CEE16B000683FB0</string>
+				<string>874430A15C1A3B8F3F5824C8</string>
+				<string>D8AE2405F88C4DDA393EC9C1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4CC0F2671CEE16B000683FB0</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0730</string>
+				<key>LastUpgradeCheck</key>
+				<string>0730</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Zyncas</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>4CC0F26E1CEE16B000683FB0</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+						<key>DevelopmentTeam</key>
+						<string>ZLV557M852</string>
+					</dict>
+					<key>BA77B4081CEEF3E200BDD619</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+						<key>TestTargetID</key>
+						<string>4CC0F26E1CEE16B000683FB0</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>4CC0F26A1CEE16B000683FB0</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>4CC0F2661CEE16B000683FB0</string>
+			<key>productRefGroup</key>
+			<string>4CC0F2701CEE16B000683FB0</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>4CC0F26E1CEE16B000683FB0</string>
+				<string>BA77B4081CEEF3E200BDD619</string>
+			</array>
+		</dict>
+		<key>4CC0F26A1CEE16B000683FB0</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>4CC0F27F1CEE16B000683FB0</string>
+				<string>4CC0F2801CEE16B000683FB0</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>4CC0F26B1CEE16B000683FB0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>68CBF5C11CEEBCA0001A97FA</string>
+				<string>68CBF5AB1CEEB847001A97FA</string>
+				<string>BA77B4191CEEFFEF00BDD619</string>
+				<string>68CBF5BC1CEEBC75001A97FA</string>
+				<string>68CBF5BE1CEEBC75001A97FA</string>
+				<string>4CC0F2731CEE16B000683FB0</string>
+				<string>68CBF5A81CEEB466001A97FA</string>
+				<string>BA77B4151CEEFDC800BDD619</string>
+				<string>68CBF5BD1CEEBC75001A97FA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>4CC0F26C1CEE16B000683FB0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1F27DD82FA75C5985DD107F3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>4CC0F26D1CEE16B000683FB0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>4CC0F27D1CEE16B000683FB0</string>
+				<string>4CC0F27A1CEE16B000683FB0</string>
+				<string>4CC0F2781CEE16B000683FB0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>4CC0F26E1CEE16B000683FB0</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>4CC0F2811CEE16B000683FB0</string>
+			<key>buildPhases</key>
+			<array>
+				<string>FA5B07DB4492994650612D6F</string>
+				<string>4CC0F26B1CEE16B000683FB0</string>
+				<string>4CC0F26C1CEE16B000683FB0</string>
+				<string>4CC0F26D1CEE16B000683FB0</string>
+				<string>929E9479ABA7E9ED98617FD4</string>
+				<string>0D97CF12526F17A452AE69A2</string>
+				<string>2F2A0AF506039A8A9E7AFA95</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Tek Talk</string>
+			<key>productName</key>
+			<string>Tek Talk</string>
+			<key>productReference</key>
+			<string>4CC0F26F1CEE16B000683FB0</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>4CC0F26F1CEE16B000683FB0</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Tek Talk.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>4CC0F2701CEE16B000683FB0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4CC0F26F1CEE16B000683FB0</string>
+				<string>BA77B4091CEEF3E200BDD619</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4CC0F2711CEE16B000683FB0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA77B4171CEEFFE300BDD619</string>
+				<string>BA77B3FE1CEEF0AA00BDD619</string>
+				<string>BA77B3FD1CEEF09600BDD619</string>
+				<string>BA77B3FC1CEEF08D00BDD619</string>
+				<string>BA77B4041CEEF0E800BDD619</string>
+				<string>4CC0F27E1CEE16B000683FB0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Tek Talk</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4CC0F2721CEE16B000683FB0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>AppDelegate.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4CC0F2731CEE16B000683FB0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4CC0F2721CEE16B000683FB0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4CC0F2761CEE16B000683FB0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4CC0F2771CEE16B000683FB0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4CC0F2771CEE16B000683FB0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4CC0F2781CEE16B000683FB0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4CC0F2761CEE16B000683FB0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4CC0F2791CEE16B000683FB0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4CC0F27A1CEE16B000683FB0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4CC0F2791CEE16B000683FB0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4CC0F27B1CEE16B000683FB0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4CC0F27C1CEE16B000683FB0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4CC0F27C1CEE16B000683FB0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4CC0F27D1CEE16B000683FB0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4CC0F27B1CEE16B000683FB0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4CC0F27E1CEE16B000683FB0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4CC0F27F1CEE16B000683FB0</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>4CC0F2801CEE16B000683FB0</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>4CC0F2811CEE16B000683FB0</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>4CC0F2821CEE16B000683FB0</string>
+				<string>4CC0F2831CEE16B000683FB0</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>4CC0F2821CEE16B000683FB0</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>135A1B50AF2A23106AA020CC</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Tek Talk/Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>zyncas.Tek-Talk</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>4CC0F2831CEE16B000683FB0</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>4DEE8DE5905F00A5B6DF99AA</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Tek Talk/Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>zyncas.Tek-Talk</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>4DEE8DE5905F00A5B6DF99AA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Tek Talk.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Tek Talk/Pods-Tek Talk.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>64916830E95A306AF4293403</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Tek TalkTests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>66DF32011FA01F25C8AE52F5</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_Tek_TalkTests.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>68CBF5A61CEEB45B001A97FA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>68CBF5A71CEEB466001A97FA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>BaseTabbarController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>68CBF5A71CEEB466001A97FA</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>BaseTabbarController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>68CBF5A81CEEB466001A97FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>68CBF5A71CEEB466001A97FA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>68CBF5A91CEEB840001A97FA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>68CBF5AA1CEEB847001A97FA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>BaseViewController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>68CBF5AA1CEEB847001A97FA</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>BaseViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>68CBF5AB1CEEB847001A97FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>68CBF5AA1CEEB847001A97FA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>68CBF5B51CEEBC75001A97FA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>68CBF5B61CEEBC75001A97FA</string>
+				<string>68CBF5B81CEEBC75001A97FA</string>
+				<string>68CBF5BA1CEEBC75001A97FA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Controller</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>68CBF5B61CEEBC75001A97FA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>68CBF5B71CEEBC75001A97FA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>ContactUSViewController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>68CBF5B71CEEBC75001A97FA</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ContactUsViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>68CBF5B81CEEBC75001A97FA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>68CBF5B91CEEBC75001A97FA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>EventViewController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>68CBF5B91CEEBC75001A97FA</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>EventViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>68CBF5BA1CEEBC75001A97FA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>68CBF5BB1CEEBC75001A97FA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>TalkViewController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>68CBF5BB1CEEBC75001A97FA</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>TalkViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>68CBF5BC1CEEBC75001A97FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>68CBF5B71CEEBC75001A97FA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>68CBF5BD1CEEBC75001A97FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>68CBF5B91CEEBC75001A97FA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>68CBF5BE1CEEBC75001A97FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>68CBF5BB1CEEBC75001A97FA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>68CBF5BF1CEEBC79001A97FA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>68CBF5C01CEEBCA0001A97FA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>BaseNavigationController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>68CBF5C01CEEBCA0001A97FA</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>BaseNavigationController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>68CBF5C11CEEBCA0001A97FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>68CBF5C01CEEBCA0001A97FA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>75587D9C28A167460F32632A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>874430A15C1A3B8F3F5824C8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>135A1B50AF2A23106AA020CC</string>
+				<string>4DEE8DE5905F00A5B6DF99AA</string>
+				<string>64916830E95A306AF4293403</string>
+				<string>2AA301BF9374AEC2DE70ED48</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>929E9479ABA7E9ED98617FD4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>&#128230; Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Tek Talk/Pods-Tek Talk-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>96231473135D3F878CD4C706</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>&#128230; Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>BA77B3FC1CEEF08D00BDD619</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA77B4031CEEF0E100BDD619</string>
+				<string>BA77B4021CEEF0DD00BDD619</string>
+				<string>BA77B4011CEEF0D600BDD619</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA77B3FD1CEEF09600BDD619</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4CC0F2721CEE16B000683FB0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>AppDelegate</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA77B3FE1CEEF0AA00BDD619</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA77B4001CEEF0B300BDD619</string>
+				<string>BA77B3FF1CEEF0AD00BDD619</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resouse</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA77B3FF1CEEF0AD00BDD619</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4CC0F2761CEE16B000683FB0</string>
+				<string>4CC0F27B1CEE16B000683FB0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA77B4001CEEF0B300BDD619</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4CC0F2791CEE16B000683FB0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Assets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA77B4011CEEF0D600BDD619</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>68CBF5BF1CEEBC79001A97FA</string>
+				<string>68CBF5A91CEEB840001A97FA</string>
+				<string>68CBF5A61CEEB45B001A97FA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Controller</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA77B4021CEEF0DD00BDD619</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Model</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA77B4031CEEF0E100BDD619</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>View</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA77B4041CEEF0E800BDD619</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA77B4131CEEFCB000BDD619</string>
+				<string>68CBF5B51CEEBC75001A97FA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Source code</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA77B4051CEEF3E200BDD619</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BA77B40C1CEEF3E200BDD619</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BA77B4061CEEF3E200BDD619</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>07EA9D4C24DC98DE74C26557</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BA77B4071CEEF3E200BDD619</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BA77B4081CEEF3E200BDD619</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>BA77B4101CEEF3E200BDD619</string>
+			<key>buildPhases</key>
+			<array>
+				<string>0F00DE819999C9B68797381E</string>
+				<string>BA77B4051CEEF3E200BDD619</string>
+				<string>BA77B4061CEEF3E200BDD619</string>
+				<string>BA77B4071CEEF3E200BDD619</string>
+				<string>177C304A91ADE79249240809</string>
+				<string>96231473135D3F878CD4C706</string>
+				<string>75587D9C28A167460F32632A</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>BA77B40F1CEEF3E200BDD619</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Tek TalkTests</string>
+			<key>productName</key>
+			<string>Tek TalkTests</string>
+			<key>productReference</key>
+			<string>BA77B4091CEEF3E200BDD619</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>BA77B4091CEEF3E200BDD619</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Tek TalkTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>BA77B40A1CEEF3E200BDD619</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA77B40B1CEEF3E200BDD619</string>
+				<string>BA77B40D1CEEF3E200BDD619</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Tek TalkTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA77B40B1CEEF3E200BDD619</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Tek_TalkTests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA77B40C1CEEF3E200BDD619</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BA77B40B1CEEF3E200BDD619</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BA77B40D1CEEF3E200BDD619</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA77B40E1CEEF3E200BDD619</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>4CC0F2671CEE16B000683FB0</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>4CC0F26E1CEE16B000683FB0</string>
+			<key>remoteInfo</key>
+			<string>Tek Talk</string>
+		</dict>
+		<key>BA77B40F1CEEF3E200BDD619</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>4CC0F26E1CEE16B000683FB0</string>
+			<key>targetProxy</key>
+			<string>BA77B40E1CEEF3E200BDD619</string>
+		</dict>
+		<key>BA77B4101CEEF3E200BDD619</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>BA77B4111CEEF3E200BDD619</string>
+				<string>BA77B4121CEEF3E200BDD619</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>BA77B4111CEEF3E200BDD619</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>64916830E95A306AF4293403</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Tek TalkTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.fe.Tek-TalkTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Tek Talk.app/Tek Talk</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>BA77B4121CEEF3E200BDD619</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>2AA301BF9374AEC2DE70ED48</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Tek TalkTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.fe.Tek-TalkTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Tek Talk.app/Tek Talk</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>BA77B4131CEEFCB000BDD619</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA77B4141CEEFDC800BDD619</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Utility</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA77B4141CEEFDC800BDD619</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ApplicationHelper.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA77B4151CEEFDC800BDD619</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BA77B4141CEEFDC800BDD619</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BA77B4171CEEFFE300BDD619</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA77B4181CEEFFEF00BDD619</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Constant</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA77B4181CEEFFEF00BDD619</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Constant.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA77B4191CEEFFEF00BDD619</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BA77B4181CEEFFEF00BDD619</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CEEBE7641E3E8EC08D029000</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_Tek_Talk.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D8AE2405F88C4DDA393EC9C1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CEEBE7641E3E8EC08D029000</string>
+				<string>66DF32011FA01F25C8AE52F5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA5B07DB4492994650612D6F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>&#128230; Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>4CC0F2671CEE16B000683FB0</string>
+</dict>
+</plist>
