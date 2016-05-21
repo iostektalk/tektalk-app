@@ -9,8 +9,11 @@
 import UIKit
 import Parse
 import Bolts
+import Keys
 
 class ApplicationHelper: NSObject {
+    
+    var keys = MyApplicationKeys()
     
     // Init all essential SDK
     internal static func initAllSDKWithLaunchOption(launchOption : [NSObject : AnyObject]?) {
@@ -27,8 +30,8 @@ class ApplicationHelper: NSObject {
         
         // Initialize Parse.
         let configuration = ParseClientConfiguration {
-            $0.applicationId = k_PARSE_CLIENT_KEY
-            $0.clientKey = k_PARSE_APPLICATION_ID
+//            $0.applicationId = self.keys.
+//            $0.clientKey = k_PARSE_APPLICATION_ID
             $0.localDatastoreEnabled = true
         }
         

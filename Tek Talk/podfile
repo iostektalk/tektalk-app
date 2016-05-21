@@ -1,5 +1,14 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
+plugin 'cocoapods-keys', {
+  :project => 'Tek Talk',
+  :keys => [
+    'PARSE_APP_ID',
+    'PARSE_CLIENT_ID'
+  ]
+}
+
+
 platform :ios, '9.0'
 use_frameworks!
 

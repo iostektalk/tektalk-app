@@ -8,6 +8,7 @@ PODS:
     - CocoaLumberjack/Core
   - CocoaLumberjack/Extensions (2.3.0):
     - CocoaLumberjack/Default
+  - Keys (1.0.0)
   - Nimble (4.0.1)
   - OCHamcrest (5.2.0)
   - OCMockito (3.0.1):
@@ -18,20 +19,26 @@ PODS:
 
 DEPENDENCIES:
   - CocoaLumberjack
+  - Keys (from `Pods/CocoaPodsKeys`)
   - Nimble
   - OCMockito (~> 3.0)
   - Parse
   - Quick
 
+EXTERNAL SOURCES:
+  Keys:
+    :path: Pods/CocoaPodsKeys
+
 SPEC CHECKSUMS:
   Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
   CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  Keys: 9c35bf00f612ee1d48556f4a4b9b4551e224e90f
   Nimble: 0f3c8b8b084cda391209c3c5efbb48bedeeb920a
   OCHamcrest: 218dc4022a5e928a275771da70c5dbea9f859287
   OCMockito: 9eee3c61e42f7cb8aa015d66f8cc16849701d973
   Parse: f51c24d2feb412e4b2d6cc73d37cb24e8d0089bc
   Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
 
-PODFILE CHECKSUM: 8ded1583c3d6b99865c44bb5daf39aead8b6815f
+PODFILE CHECKSUM: 4faf1c755efef14191b1cc37dc237b8c956dd6db
 
 COCOAPODS: 1.0.0
