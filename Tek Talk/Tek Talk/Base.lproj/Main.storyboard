@@ -37,11 +37,31 @@
                     <view key="view" contentMode="scaleToFill" id="Aou-Lq-HLS">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0FK-bE-Pma">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="wod-6X-do8" id="YfE-W6-gU5"/>
+                                    <outlet property="delegate" destination="wod-6X-do8" id="zVs-2G-4W3"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pxO-Kr-cN3" firstAttribute="top" secondItem="0FK-bE-Pma" secondAttribute="bottom" id="2Pb-9I-DQg"/>
+                            <constraint firstItem="0FK-bE-Pma" firstAttribute="top" secondItem="7Ja-KI-Ekc" secondAttribute="bottom" id="FTS-NI-cuj"/>
+                            <constraint firstAttribute="trailing" secondItem="0FK-bE-Pma" secondAttribute="trailing" id="azs-zn-Lls"/>
+                            <constraint firstItem="0FK-bE-Pma" firstAttribute="leading" secondItem="Aou-Lq-HLS" secondAttribute="leading" id="vVU-VB-bFP"/>
+                        </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <tabBarItem key="tabBarItem" title="Talks" image="talks" id="Jjn-x4-jY3"/>
                     <navigationItem key="navigationItem" id="GAo-uH-6Aq"/>
+                    <connections>
+                        <outlet property="tableView" destination="0FK-bE-Pma" id="rPy-7n-r2O"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0pL-kP-Z3J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
