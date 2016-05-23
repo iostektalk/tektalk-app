@@ -20,10 +20,10 @@ class EventOperation: BaseOperation {
         // Executing code here
         let query = PFQuery(className: k_Classname_Event)
         query.whereKey(k_Event_StartAt, greaterThanOrEqualTo: currentTime)
-//        query.includeKey(k_Event_Speaker)
-//        query.includeKey(k_Event_Videos)
-//        query.includeKey(k_Event_Documents)
-//        query.includeKey(k_Event_Tags)
+        query.includeKey(k_Event_Speaker)
+        query.includeKey(k_Event_Videos)
+        query.includeKey(k_Event_Documents)
+        query.includeKey(k_Event_Tags)
         
         // Try
         do {

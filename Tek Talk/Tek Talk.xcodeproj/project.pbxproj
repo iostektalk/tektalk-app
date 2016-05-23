@@ -338,6 +338,7 @@
 		BAC056801CF2A715000C34E6 /* Operation */ = {
 			isa = PBXGroup;
 			children = (
+				BAC056961CF303DB000C34E6 /* Image */,
 				BAC056871CF2AE9D000C34E6 /* UI */,
 				BAC056841CF2A73B000C34E6 /* Event */,
 			);
@@ -398,6 +399,13 @@
 				BAC056921CF2D013000C34E6 /* TalkDetailViewController.swift */,
 			);
 			name = TalkDetail;
+			sourceTree = "<group>";
+		};
+		BAC056961CF303DB000C34E6 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
