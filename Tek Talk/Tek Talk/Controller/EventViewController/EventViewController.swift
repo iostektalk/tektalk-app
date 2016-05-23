@@ -7,11 +7,20 @@
 //
 
 import Foundation
+import Parse
+
 class EventViewController: BaseViewController {
+    
+    var eventModelView = EventViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "EVENTS"
+        
+        eventModelView.fetchData()
+        
     }
+    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
