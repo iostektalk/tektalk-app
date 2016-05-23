@@ -27,7 +27,7 @@ class UIOperation: BaseOperation {
         super.main()
         
         // Get data
-        if let op = self.dependencies.first as? EventOperation {
+        if let op = self.dependencies.first as? BaseOperation {
             self.response = op.response
             self.error = op.error
         }
