@@ -15,6 +15,7 @@ let k_PARSE_CLIENT_KEY = "LcJGIrbZ70W2UIQ6lZodzrAF0XFlP1nFht6wlsbi"
 
 // PARSE FIELDS
 let k_Classname_Event = "Event"
+let k_Classname_Video = "Video"
 let k_ClassName_Document = "Document"
 
 // EVENT

@@ -37,10 +37,16 @@ class TalkViewController: BaseViewController, UITableViewDelegate,UITableViewDat
        
         self.tableView?.registerClass(TalkCell.self, forCellReuseIdentifier: "TalkCell");
         self.tableView?.registerNib(UINib.init(nibName: "TalkCell", bundle: nil), forCellReuseIdentifier: "TalkCell")
+        
+        APIManager.shareInstance.fetchTalks {(response : [PFObject]?, error : NSError?)  in
+            
+            print("")
+        }
     }
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         self.title = "TALKS"
+        
     }
     
     //MARK : - Table View Delegate 

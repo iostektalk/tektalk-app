@@ -46,4 +46,18 @@ class APIManager: NSObject {
         self.apiQueue.addOperation(eventOp)
         self.mainQueue.addOperation(uiOp)
     }
+    
+    ///////////////////////////////////////////////////
+    internal func fetchTalks(updateBlock : UpdateUIBlock) {
+        
+        let eventOp = TalksOperation()
+        let uiOp = UIOperation(updateBlock: updateBlock)
+        
+        // Dependency
+        uiOp.addDependency(eventOp)
+        
+        // Queue
+        self.apiQueue.addOperation(eventOp)
+        self.mainQueue.addOperation(uiOp)
+    }
 }
