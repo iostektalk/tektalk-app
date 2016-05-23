@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07EA9D4C24DC98DE74C26557 /* Pods_Tek_TalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DF32011FA01F25C8AE52F5 /* Pods_Tek_TalkTests.framework */; };
-		1F27DD82FA75C5985DD107F3 /* Pods_Tek_Talk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBE7641E3E8EC08D029000 /* Pods_Tek_Talk.framework */; };
 		4CC0F2731CEE16B000683FB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0F2721CEE16B000683FB0 /* AppDelegate.swift */; };
 		4CC0F2781CEE16B000683FB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F2761CEE16B000683FB0 /* Main.storyboard */; };
 		4CC0F27A1CEE16B000683FB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F2791CEE16B000683FB0 /* Assets.xcassets */; };
 		4CC0F27D1CEE16B000683FB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F27B1CEE16B000683FB0 /* LaunchScreen.storyboard */; };
+		4DD27F252ECC28BFB5609BC0 /* Pods_Tek_TalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9C537CF7EF83D1AD7FBDD9 /* Pods_Tek_TalkTests.framework */; };
 		68CBF5A81CEEB466001A97FA /* BaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5A71CEEB466001A97FA /* BaseTabbarController.swift */; };
 		68CBF5AB1CEEB847001A97FA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5AA1CEEB847001A97FA /* BaseViewController.swift */; };
 		68CBF5BC1CEEBC75001A97FA /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5B71CEEBC75001A97FA /* ContactUsViewController.swift */; };
 		68CBF5BD1CEEBC75001A97FA /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5B91CEEBC75001A97FA /* EventViewController.swift */; };
 		68CBF5BE1CEEBC75001A97FA /* TalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5BB1CEEBC75001A97FA /* TalkViewController.swift */; };
 		68CBF5C11CEEBCA0001A97FA /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5C01CEEBCA0001A97FA /* BaseNavigationController.swift */; };
+		7083419CE4E44DD4350733FD /* Pods_Tek_Talk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC05C96DC0FB932BB237AF3B /* Pods_Tek_Talk.framework */; };
 		BA77B40C1CEEF3E200BDD619 /* Tek_TalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77B40B1CEEF3E200BDD619 /* Tek_TalkTests.swift */; };
 		BA77B4151CEEFDC800BDD619 /* ApplicationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77B4141CEEFDC800BDD619 /* ApplicationHelper.swift */; };
 		BA77B4191CEEFFEF00BDD619 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77B4181CEEFFEF00BDD619 /* Constant.swift */; };
@@ -35,17 +35,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		135A1B50AF2A23106AA020CC /* Pods-Tek Talk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek Talk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tek Talk/Pods-Tek Talk.debug.xcconfig"; sourceTree = "<group>"; };
-		2AA301BF9374AEC2DE70ED48 /* Pods-Tek TalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek TalkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests.release.xcconfig"; sourceTree = "<group>"; };
 		4CC0F26F1CEE16B000683FB0 /* Tek Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tek Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC0F2721CEE16B000683FB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CC0F2771CEE16B000683FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CC0F2791CEE16B000683FB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CC0F27C1CEE16B000683FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CC0F27E1CEE16B000683FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DEE8DE5905F00A5B6DF99AA /* Pods-Tek Talk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek Talk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tek Talk/Pods-Tek Talk.release.xcconfig"; sourceTree = "<group>"; };
-		64916830E95A306AF4293403 /* Pods-Tek TalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek TalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests.debug.xcconfig"; sourceTree = "<group>"; };
-		66DF32011FA01F25C8AE52F5 /* Pods_Tek_TalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tek_TalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F6686D7FA441C37C0579023 /* Pods-Tek Talk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek Talk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tek Talk/Pods-Tek Talk.release.xcconfig"; sourceTree = "<group>"; };
+		50BA580E60E8905BC7FC22A9 /* Pods-Tek Talk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek Talk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tek Talk/Pods-Tek Talk.debug.xcconfig"; sourceTree = "<group>"; };
+		653471777C857C4F85B4F88F /* Pods-Tek TalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek TalkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests.release.xcconfig"; sourceTree = "<group>"; };
 		68CBF5A71CEEB466001A97FA /* BaseTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabbarController.swift; sourceTree = "<group>"; };
 		68CBF5AA1CEEB847001A97FA /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		68CBF5B71CEEBC75001A97FA /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +55,9 @@
 		BA77B40D1CEEF3E200BDD619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA77B4141CEEFDC800BDD619 /* ApplicationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationHelper.swift; sourceTree = "<group>"; };
 		BA77B4181CEEFFEF00BDD619 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		CEEBE7641E3E8EC08D029000 /* Pods_Tek_Talk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tek_Talk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC05C96DC0FB932BB237AF3B /* Pods_Tek_Talk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tek_Talk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98B03237F1BEDB410EEDDB6 /* Pods-Tek TalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek TalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD9C537CF7EF83D1AD7FBDD9 /* Pods_Tek_TalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tek_TalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F27DD82FA75C5985DD107F3 /* Pods_Tek_Talk.framework in Frameworks */,
+				7083419CE4E44DD4350733FD /* Pods_Tek_Talk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,21 +73,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07EA9D4C24DC98DE74C26557 /* Pods_Tek_TalkTests.framework in Frameworks */,
+				4DD27F252ECC28BFB5609BC0 /* Pods_Tek_TalkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DA24CCCC13B36DB1B9094A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC05C96DC0FB932BB237AF3B /* Pods_Tek_Talk.framework */,
+				FD9C537CF7EF83D1AD7FBDD9 /* Pods_Tek_TalkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23721E565EABC54708611FB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50BA580E60E8905BC7FC22A9 /* Pods-Tek Talk.debug.xcconfig */,
+				4F6686D7FA441C37C0579023 /* Pods-Tek Talk.release.xcconfig */,
+				F98B03237F1BEDB410EEDDB6 /* Pods-Tek TalkTests.debug.xcconfig */,
+				653471777C857C4F85B4F88F /* Pods-Tek TalkTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4CC0F2661CEE16B000683FB0 = {
 			isa = PBXGroup;
 			children = (
 				4CC0F2711CEE16B000683FB0 /* Tek Talk */,
 				BA77B40A1CEEF3E200BDD619 /* Tek TalkTests */,
 				4CC0F2701CEE16B000683FB0 /* Products */,
-				874430A15C1A3B8F3F5824C8 /* Pods */,
-				D8AE2405F88C4DDA393EC9C1 /* Frameworks */,
+				23721E565EABC54708611FB2 /* Pods */,
+				0DA24CCCC13B36DB1B9094A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,17 +189,6 @@
 				68CBF5C01CEEBCA0001A97FA /* BaseNavigationController.swift */,
 			);
 			path = BaseNavigationController;
-			sourceTree = "<group>";
-		};
-		874430A15C1A3B8F3F5824C8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				135A1B50AF2A23106AA020CC /* Pods-Tek Talk.debug.xcconfig */,
-				4DEE8DE5905F00A5B6DF99AA /* Pods-Tek Talk.release.xcconfig */,
-				64916830E95A306AF4293403 /* Pods-Tek TalkTests.debug.xcconfig */,
-				2AA301BF9374AEC2DE70ED48 /* Pods-Tek TalkTests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		BA77B3FC1CEEF08D00BDD619 /* Base */ = {
@@ -284,15 +293,6 @@
 			name = Constant;
 			sourceTree = "<group>";
 		};
-		D8AE2405F88C4DDA393EC9C1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CEEBE7641E3E8EC08D029000 /* Pods_Tek_Talk.framework */,
-				66DF32011FA01F25C8AE52F5 /* Pods_Tek_TalkTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -300,13 +300,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CC0F2811CEE16B000683FB0 /* Build configuration list for PBXNativeTarget "Tek Talk" */;
 			buildPhases = (
-				FA5B07DB4492994650612D6F /* 📦 Check Pods Manifest.lock */,
+				44C439E36E9266CA1A7E668B /* 📦 Check Pods Manifest.lock */,
 				4CC0F26B1CEE16B000683FB0 /* Sources */,
 				4CC0F26C1CEE16B000683FB0 /* Frameworks */,
 				4CC0F26D1CEE16B000683FB0 /* Resources */,
-				929E9479ABA7E9ED98617FD4 /* 📦 Embed Pods Frameworks */,
-				0D97CF12526F17A452AE69A2 /* 📦 Copy Pods Resources */,
-				2F2A0AF506039A8A9E7AFA95 /* Embed Pods Frameworks */,
+				91A056A746E744643EC1DA1E /* 📦 Embed Pods Frameworks */,
+				2F1CB2B41F7D053235D0C22C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -321,13 +320,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA77B4101CEEF3E200BDD619 /* Build configuration list for PBXNativeTarget "Tek TalkTests" */;
 			buildPhases = (
-				0F00DE819999C9B68797381E /* 📦 Check Pods Manifest.lock */,
+				A9791E3D7B10FC2F865F990B /* 📦 Check Pods Manifest.lock */,
 				BA77B4051CEEF3E200BDD619 /* Sources */,
 				BA77B4061CEEF3E200BDD619 /* Frameworks */,
 				BA77B4071CEEF3E200BDD619 /* Resources */,
-				177C304A91ADE79249240809 /* 📦 Embed Pods Frameworks */,
-				96231473135D3F878CD4C706 /* 📦 Copy Pods Resources */,
-				75587D9C28A167460F32632A /* Embed Pods Frameworks */,
+				952E156AD53CFE31DA131036 /* 📦 Embed Pods Frameworks */,
+				B151BF9CEB75B30AB0316953 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -399,7 +397,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0D97CF12526F17A452AE69A2 /* 📦 Copy Pods Resources */ = {
+		2F1CB2B41F7D053235D0C22C /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -414,7 +412,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tek Talk/Pods-Tek Talk-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0F00DE819999C9B68797381E /* 📦 Check Pods Manifest.lock */ = {
+		44C439E36E9266CA1A7E668B /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -429,52 +427,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		177C304A91ADE79249240809 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2F2A0AF506039A8A9E7AFA95 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tek Talk/Pods-Tek Talk-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		75587D9C28A167460F32632A /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		929E9479ABA7E9ED98617FD4 /* 📦 Embed Pods Frameworks */ = {
+		91A056A746E744643EC1DA1E /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -489,7 +442,37 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tek Talk/Pods-Tek Talk-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		96231473135D3F878CD4C706 /* 📦 Copy Pods Resources */ = {
+		952E156AD53CFE31DA131036 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9791E3D7B10FC2F865F990B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B151BF9CEB75B30AB0316953 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -502,21 +485,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FA5B07DB4492994650612D6F /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -663,7 +631,7 @@
 		};
 		4CC0F2821CEE16B000683FB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 135A1B50AF2A23106AA020CC /* Pods-Tek Talk.debug.xcconfig */;
+			baseConfigurationReference = 50BA580E60E8905BC7FC22A9 /* Pods-Tek Talk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -678,7 +646,7 @@
 		};
 		4CC0F2831CEE16B000683FB0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DEE8DE5905F00A5B6DF99AA /* Pods-Tek Talk.release.xcconfig */;
+			baseConfigurationReference = 4F6686D7FA441C37C0579023 /* Pods-Tek Talk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -693,7 +661,7 @@
 		};
 		BA77B4111CEEF3E200BDD619 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64916830E95A306AF4293403 /* Pods-Tek TalkTests.debug.xcconfig */;
+			baseConfigurationReference = F98B03237F1BEDB410EEDDB6 /* Pods-Tek TalkTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Tek TalkTests/Info.plist";
@@ -706,7 +674,7 @@
 		};
 		BA77B4121CEEF3E200BDD619 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AA301BF9374AEC2DE70ED48 /* Pods-Tek TalkTests.release.xcconfig */;
+			baseConfigurationReference = 653471777C857C4F85B4F88F /* Pods-Tek TalkTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Tek TalkTests/Info.plist";
