@@ -27,6 +27,7 @@
 		BAC056831CF2A733000C34E6 /* BaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC056821CF2A733000C34E6 /* BaseOperation.swift */; };
 		BAC056861CF2A74E000C34E6 /* EventOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC056851CF2A74E000C34E6 /* EventOperation.swift */; };
 		BAC056891CF2AEAB000C34E6 /* UIOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC056881CF2AEAB000C34E6 /* UIOperation.swift */; };
+		BAC0568C1CF2C9BC000C34E6 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC0568B1CF2C9BC000C34E6 /* BaseViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		BAC056821CF2A733000C34E6 /* BaseOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseOperation.swift; sourceTree = "<group>"; };
 		BAC056851CF2A74E000C34E6 /* EventOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventOperation.swift; sourceTree = "<group>"; };
 		BAC056881CF2AEAB000C34E6 /* UIOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIOperation.swift; sourceTree = "<group>"; };
+		BAC0568B1CF2C9BC000C34E6 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		EC05C96DC0FB932BB237AF3B /* Pods_Tek_Talk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tek_Talk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98B03237F1BEDB410EEDDB6 /* Pods-Tek TalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek TalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD9C537CF7EF83D1AD7FBDD9 /* Pods_Tek_TalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tek_TalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -205,6 +207,7 @@
 		BA77B3FC1CEEF08D00BDD619 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				BAC0568A1CF2C9A6000C34E6 /* ViewModel */,
 				BA77B4031CEEF0E100BDD619 /* View */,
 				BA77B4021CEEF0DD00BDD619 /* Model */,
 				BA77B4011CEEF0D600BDD619 /* Controller */,
@@ -354,6 +357,14 @@
 				BAC056881CF2AEAB000C34E6 /* UIOperation.swift */,
 			);
 			name = UI;
+			sourceTree = "<group>";
+		};
+		BAC0568A1CF2C9A6000C34E6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BAC0568B1CF2C9BC000C34E6 /* BaseViewModel.swift */,
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -568,6 +579,7 @@
 				68CBF5BE1CEEBC75001A97FA /* TalkViewController.swift in Sources */,
 				4CC0F2731CEE16B000683FB0 /* AppDelegate.swift in Sources */,
 				68CBF5A81CEEB466001A97FA /* BaseTabbarController.swift in Sources */,
+				BAC0568C1CF2C9BC000C34E6 /* BaseViewModel.swift in Sources */,
 				BA77B4151CEEFDC800BDD619 /* ApplicationHelper.swift in Sources */,
 				68CBF5BD1CEEBC75001A97FA /* EventViewController.swift in Sources */,
 				BAC056891CF2AEAB000C34E6 /* UIOperation.swift in Sources */,

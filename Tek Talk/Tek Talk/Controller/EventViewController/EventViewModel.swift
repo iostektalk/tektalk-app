@@ -9,18 +9,18 @@
 import UIKit
 import Parse
 
-class EventViewModel: NSObject{
+class EventViewModel: BaseViewModel {
 
     // Data
     var arrEvents : [PFObject]? = []
-    weak var tableView : UITableView? {
+    weak var tableView : UITableView! {
         didSet {
-            tableView?.delegate = self
-            tableView?.dataSource = self
+            tableView.delegate = self
+            tableView.dataSource = self
         }
     }
     
-    internal func fetchData() {
+    func fetchData() {
         APIManager.shareInstance.fetchEvent {[weak self] (response : [PFObject]?, error : NSError?)  in
             self?.arrEvents = response
             
