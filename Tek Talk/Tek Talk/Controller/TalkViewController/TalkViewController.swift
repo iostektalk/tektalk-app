@@ -58,4 +58,7 @@ class TalkViewController: BaseViewController, UITableViewDelegate,UITableViewDat
         let cell = tableView.dequeueReusableCellWithIdentifier("TalkCell") as? TalkCell
         return cell!
     }
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+    }
 }

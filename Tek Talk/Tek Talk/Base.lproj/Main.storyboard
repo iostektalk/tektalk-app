@@ -61,11 +61,43 @@
                     <navigationItem key="navigationItem" id="GAo-uH-6Aq"/>
                     <connections>
                         <outlet property="tableView" destination="0FK-bE-Pma" id="rPy-7n-r2O"/>
+                        <segue destination="66X-iQ-kar" kind="push" id="xmb-yf-WXd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0pL-kP-Z3J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="271" y="941"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5P1-Fi-Qdo">
+            <objects>
+                <viewController id="66X-iQ-kar" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="o2w-Wr-ROQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Syw-jO-k0l"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u9t-wJ-y8f">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="e8L-We-ZbH">
+                                <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="e8L-We-ZbH" firstAttribute="top" secondItem="o2w-Wr-ROQ" secondAttribute="bottom" id="52T-eU-tqB"/>
+                            <constraint firstItem="e8L-We-ZbH" firstAttribute="leading" secondItem="u9t-wJ-y8f" secondAttribute="leading" id="G2E-TI-bPi"/>
+                            <constraint firstItem="Syw-jO-k0l" firstAttribute="top" secondItem="e8L-We-ZbH" secondAttribute="bottom" id="I43-GC-Q5C"/>
+                            <constraint firstAttribute="trailing" secondItem="e8L-We-ZbH" secondAttribute="trailing" id="NsG-PH-yu6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="a9e-lR-Pi6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eWQ-AJ-49b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="691" y="941"/>
         </scene>
         <!--Events-->
         <scene sceneID="LVj-KD-ch6">
