@@ -27,13 +27,12 @@ class ApplicationHelper: NSObject {
         
         // Initialize Parse.
         let configuration = ParseClientConfiguration {
-            $0.applicationId = k_PARSE_CLIENT_KEY
-            $0.clientKey = k_PARSE_APPLICATION_ID
+            $0.applicationId = k_PARSE_APPLICATION_ID
+            $0.clientKey = k_PARSE_CLIENT_KEY
             $0.localDatastoreEnabled = true
         }
         
         Parse.initializeWithConfiguration(configuration)
-        
     }
     
     // Init Facebook SDK
