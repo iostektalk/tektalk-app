@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
@@ -36,9 +37,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn how to make and handle a social application" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWY-cb-eeZ">
-                                <rect key="frame" x="40" y="113" width="240" height="33.5"/>
+                                <rect key="frame" x="0.0" y="111.5" width="320" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="33.5" id="Ws9-X8-U60"/>
+                                    <constraint firstAttribute="height" constant="35" id="Ws9-X8-U60"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -49,13 +50,13 @@
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="bWY-cb-eeZ" secondAttribute="bottom" id="8Bq-37-Fb5"/>
                             <constraint firstItem="9qX-Aj-3uA" firstAttribute="top" secondItem="BvN-9f-gXM" secondAttribute="bottom" constant="5" id="9As-WA-lnD"/>
-                            <constraint firstAttribute="trailing" secondItem="bWY-cb-eeZ" secondAttribute="trailing" constant="40" id="Awu-q6-AJw"/>
+                            <constraint firstAttribute="trailing" secondItem="bWY-cb-eeZ" secondAttribute="trailing" id="Awu-q6-AJw"/>
                             <constraint firstItem="BvN-9f-gXM" firstAttribute="centerX" secondItem="zmM-ge-HUo" secondAttribute="centerX" id="DS5-yH-0zh"/>
                             <constraint firstItem="BvN-9f-gXM" firstAttribute="top" secondItem="zmM-ge-HUo" secondAttribute="top" constant="13" id="LNp-Ie-Q79"/>
                             <constraint firstItem="pYX-JA-avO" firstAttribute="centerX" secondItem="9qX-Aj-3uA" secondAttribute="centerX" id="THB-j5-CsH"/>
                             <constraint firstItem="pYX-JA-avO" firstAttribute="top" secondItem="9qX-Aj-3uA" secondAttribute="bottom" constant="5" id="UlP-yf-Cho"/>
                             <constraint firstItem="9qX-Aj-3uA" firstAttribute="centerX" secondItem="BvN-9f-gXM" secondAttribute="centerX" id="cu8-Fo-HE0"/>
-                            <constraint firstItem="bWY-cb-eeZ" firstAttribute="leading" secondItem="zmM-ge-HUo" secondAttribute="leading" constant="40" id="dLH-cn-Pqv"/>
+                            <constraint firstItem="bWY-cb-eeZ" firstAttribute="leading" secondItem="zmM-ge-HUo" secondAttribute="leading" id="dLH-cn-Pqv"/>
                         </constraints>
                     </view>
                 </subviews>

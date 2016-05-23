@@ -7,17 +7,18 @@
 //
 
 import Foundation
+import Parse
 class TalkModel: NSObject {
-    var avatarSpeaker: NSString?
+    var avatarSpeaker: String?
     var numberTekTalk: Int?
-    var nameTekTalk: NSString?
-    var descTekTalk: NSString?
-    var languageTekTalk: NSString?
+    var subject: String?
+    var descTekTalk: String?
+    var languageTekTalk: String?
     
     func talkModelWithData(data: NSDictionary!) -> TalkModel {
-        self.avatarSpeaker = data.objectForKey("") as? NSString
-        self.numberTekTalk = data.objectForKey("") as? Int
-        self.nameTekTalk = data.objectForKey("") as? NSString
+//        self.avatarSpeaker = data.objectForKey("")
+//        self.numberTekTalk = data.objectForKey("") as? Int
+//        self.subject = data.objectForKey("")
         
         return self
     }

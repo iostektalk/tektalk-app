@@ -14,9 +14,10 @@ let k_PARSE_APPLICATION_ID = "xgxj79iZFoq3c7y1Gif2uhbCoQksiVOl4Xwd43WJ"
 let k_PARSE_CLIENT_KEY = "LcJGIrbZ70W2UIQ6lZodzrAF0XFlP1nFht6wlsbi"
 
 // PARSE FIELDS
-let k_Classname_Event = "Event"
-let k_Classname_Video = "Video"
-let k_ClassName_Document = "Document"
+let k_Classname_Event       = "Event"
+let k_Classname_Video       = "Video"
+let k_Classname_Speaker     = "Speaker"
+let k_ClassName_Document    = "Document"
 
 // EVENT
 let k_Event_Title = "title"
