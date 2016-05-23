@@ -1,5 +1,5 @@
 //
-//  TalkDetailViewController.swift
+//  EventDetailViewController.swift
 //  Tek Talk
 //
 //  Created by Nghia Tran Vinh on 5/23/16.
@@ -9,8 +9,13 @@
 import UIKit
 import Parse
 
-class TalkDetailViewController: BaseViewController {
+class EventDetailViewController: BaseViewController {
 
+    class func getController() {
+        
+    }
+    
+    
     var currentEventObj : PFObject?
     
     override func viewDidLoad() {
@@ -24,15 +29,4 @@ class TalkDetailViewController: BaseViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
