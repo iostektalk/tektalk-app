@@ -10,8 +10,9 @@ import UIKit
 
 class EventViewModel: NSObject {
 
-    
-    
+    internal func fetchData() {
+        
+    }
 }
 
 extension EventViewModel :  UITableViewDataSource, UITableViewDelegate {
