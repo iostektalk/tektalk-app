@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import Parse
+
 class TalkViewController: BaseViewController, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView?
@@ -17,37 +18,30 @@ class TalkViewController: BaseViewController, UITableViewDelegate {
         return 147
     }()
     
-    var talksData: NSMutableArray = {
-       return NSMutableArray()
+    var talksData: [PFObject] = {
+       return []
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+
         self.tableView?.registerClass(TalkCell.self, forCellReuseIdentifier: "TalkCell");
         self.tableView?.registerNib(UINib.init(nibName: "TalkCell", bundle: nil), forCellReuseIdentifier: "TalkCell")
         
-        APIManager.shareInstance.fetchTalks {(response : [PFObject]?, error : NSError?)  in
+        APIManager.shareInstance.fetchTalks {[weak self](response : [PFObject]?, error : NSError?)  in
             if error != nil {
                 UIAlertView.init(title: "Error", message: error?.localizedDescription, delegate: nil, cancelButtonTitle: "Close").show()
             }else{
-                for pfobject in response! {
-                    let speaker = pfobject["speaker"] as? PFObject
-                    
-                    let talkModel = TalkModel()
-                    talkModel.avatarSpeaker = speaker?.objectForKey("avatar") as? String
-                    talkModel.descTekTalk   = pfobject.objectForKey("shortDescription") as? String
-                    talkModel.subject   = pfobject.objectForKey("subject") as? String
-                    self.talksData.addObject(talkModel)
+                if let response1 = response {
+                    self?.talksData = response1
                 }
-                self.tableView?.reloadData()
+                self?.tableView?.reloadData()
             }
         }
     }
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         self.title = "TALKS"
-        
     }
     
     //MARK : - Table View Delegate 
@@ -63,12 +57,24 @@ class TalkViewController: BaseViewController, UITableViewDelegate {
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> TalkCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("TalkCell") as? TalkCell
-        let talkModel = self.talksData[indexPath.row] as! TalkModel
-        cell?.lbNameTekTalk?.text = talkModel.subject
-        cell?.lbDescriptionTekTalk?.text = talkModel.descTekTalk
+        let talkObj = self.talksData[indexPath.row]
+        
+        // Speaker
+        if let speaker = talkObj["speaker"] as? PFObject {
+            
+        }
+        
+        //Video
+        if let video = talkObj["videos"] as? PFObject {
+            print("")
+        }
+        
         return cell!
     }
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        if let obj = self.talksData[indexPath.row] as? PFObject {
+            RoutesManager.pushToTalkDetailWithEventObj(obj)
+        }
     }
 }

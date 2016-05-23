@@ -16,6 +16,7 @@ class TalkCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        self.lbNameTekTalk?.adjustsFontSizeToFitWidth = true
     }
     
 }

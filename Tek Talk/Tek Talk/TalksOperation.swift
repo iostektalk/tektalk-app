@@ -17,6 +17,7 @@ class TalksOperation: BaseOperation {
         let query = PFQuery(className: k_Classname_Event)
         query.includeKey(k_Event_Speaker)
         query.includeKey(k_Event_Videos)
+        query.whereKey("type", equalTo: "talk")
         
         // Try
         do {

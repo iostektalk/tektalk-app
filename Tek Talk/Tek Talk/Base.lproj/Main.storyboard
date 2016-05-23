@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="M6Y-zZ-bWG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="M6Y-zZ-bWG">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
@@ -47,7 +48,7 @@
         <!--Talks-->
         <scene sceneID="Q37-jU-v2I">
             <objects>
-                <viewController id="wod-6X-do8" customClass="TalkViewController" customModule="Tek_Talk" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TalkViewController" id="wod-6X-do8" customClass="TalkViewController" customModule="Tek_Talk" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7Ja-KI-Ekc"/>
                         <viewControllerLayoutGuide type="bottom" id="pxO-Kr-cN3"/>
