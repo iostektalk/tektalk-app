@@ -47,4 +47,10 @@ extension EventViewModel :  UITableViewDataSource, UITableViewDelegate {
         
         return cell!
     }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let obj = PFObject(className: k_Classname_Event)
+        
+        RoutesManager.pushToEventDetailWithEventObj(obj)
+    }
 }

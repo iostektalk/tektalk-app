@@ -28,6 +28,9 @@
 		BAC056861CF2A74E000C34E6 /* EventOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC056851CF2A74E000C34E6 /* EventOperation.swift */; };
 		BAC056891CF2AEAB000C34E6 /* UIOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC056881CF2AEAB000C34E6 /* UIOperation.swift */; };
 		BAC0568C1CF2C9BC000C34E6 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC0568B1CF2C9BC000C34E6 /* BaseViewModel.swift */; };
+		BAC0568F1CF2CCB0000C34E6 /* RoutesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC0568E1CF2CCB0000C34E6 /* RoutesManager.swift */; };
+		BAC056931CF2D013000C34E6 /* TalkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC056921CF2D013000C34E6 /* TalkDetailViewController.swift */; };
+		BAC056951CF2D01F000C34E6 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC056941CF2D01F000C34E6 /* EventDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		BAC056851CF2A74E000C34E6 /* EventOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventOperation.swift; sourceTree = "<group>"; };
 		BAC056881CF2AEAB000C34E6 /* UIOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIOperation.swift; sourceTree = "<group>"; };
 		BAC0568B1CF2C9BC000C34E6 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		BAC0568E1CF2CCB0000C34E6 /* RoutesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutesManager.swift; sourceTree = "<group>"; };
+		BAC056921CF2D013000C34E6 /* TalkDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkDetailViewController.swift; sourceTree = "<group>"; };
+		BAC056941CF2D01F000C34E6 /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
 		EC05C96DC0FB932BB237AF3B /* Pods_Tek_Talk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tek_Talk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98B03237F1BEDB410EEDDB6 /* Pods-Tek TalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek TalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD9C537CF7EF83D1AD7FBDD9 /* Pods_Tek_TalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tek_TalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,6 +170,8 @@
 		68CBF5B51CEEBC75001A97FA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BAC056911CF2CFFC000C34E6 /* TalkDetail */,
+				BAC056901CF2CFF3000C34E6 /* EventDetail */,
 				68CBF5B61CEEBC75001A97FA /* ContactUSViewController */,
 				68CBF5B81CEEBC75001A97FA /* EventViewController */,
 				68CBF5BA1CEEBC75001A97FA /* TalkViewController */,
@@ -312,6 +320,7 @@
 		BAC0567A1CF2A6AE000C34E6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BAC0568D1CF2CC97000C34E6 /* RoutesManager */,
 				BAC056801CF2A715000C34E6 /* Operation */,
 				BAC0567B1CF2A6B4000C34E6 /* APIManager */,
 			);
@@ -365,6 +374,30 @@
 				BAC0568B1CF2C9BC000C34E6 /* BaseViewModel.swift */,
 			);
 			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		BAC0568D1CF2CC97000C34E6 /* RoutesManager */ = {
+			isa = PBXGroup;
+			children = (
+				BAC0568E1CF2CCB0000C34E6 /* RoutesManager.swift */,
+			);
+			name = RoutesManager;
+			sourceTree = "<group>";
+		};
+		BAC056901CF2CFF3000C34E6 /* EventDetail */ = {
+			isa = PBXGroup;
+			children = (
+				BAC056941CF2D01F000C34E6 /* EventDetailViewController.swift */,
+			);
+			name = EventDetail;
+			sourceTree = "<group>";
+		};
+		BAC056911CF2CFFC000C34E6 /* TalkDetail */ = {
+			isa = PBXGroup;
+			children = (
+				BAC056921CF2D013000C34E6 /* TalkDetailViewController.swift */,
+			);
+			name = TalkDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -577,8 +610,11 @@
 				68CBF5BC1CEEBC75001A97FA /* ContactUsViewController.swift in Sources */,
 				BAC056831CF2A733000C34E6 /* BaseOperation.swift in Sources */,
 				68CBF5BE1CEEBC75001A97FA /* TalkViewController.swift in Sources */,
+				BAC056931CF2D013000C34E6 /* TalkDetailViewController.swift in Sources */,
 				4CC0F2731CEE16B000683FB0 /* AppDelegate.swift in Sources */,
 				68CBF5A81CEEB466001A97FA /* BaseTabbarController.swift in Sources */,
+				BAC056951CF2D01F000C34E6 /* EventDetailViewController.swift in Sources */,
+				BAC0568F1CF2CCB0000C34E6 /* RoutesManager.swift in Sources */,
 				BAC0568C1CF2C9BC000C34E6 /* BaseViewModel.swift in Sources */,
 				BA77B4151CEEFDC800BDD619 /* ApplicationHelper.swift in Sources */,
 				68CBF5BD1CEEBC75001A97FA /* EventViewController.swift in Sources */,

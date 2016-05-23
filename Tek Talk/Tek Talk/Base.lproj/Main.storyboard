@@ -26,6 +26,24 @@
             </objects>
             <point key="canvasLocation" x="705" y="216"/>
         </scene>
+        <!--Event Detail View Controller-->
+        <scene sceneID="8BN-66-R5e">
+            <objects>
+                <viewController storyboardIdentifier="EventDetailViewController" id="c7o-Xn-wNI" customClass="EventDetailViewController" customModule="Tek_Talk" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QNf-fI-o48"/>
+                        <viewControllerLayoutGuide type="bottom" id="t5R-PC-nKd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aoV-LV-xbg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kL6-Vf-PIJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1473" y="261"/>
+        </scene>
         <!--Talks-->
         <scene sceneID="Q37-jU-v2I">
             <objects>
@@ -110,6 +128,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vsf-LA-r8C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="705" y="-558"/>
+        </scene>
+        <!--Talk Detail View Controller-->
+        <scene sceneID="aLY-F4-OW8">
+            <objects>
+                <viewController storyboardIdentifier="TalkDetailViewController" id="2Ye-Kg-k6x" customClass="TalkDetailViewController" customModule="Tek_Talk" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="W3E-og-oD2"/>
+                        <viewControllerLayoutGuide type="bottom" id="SZZ-4J-m2H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8rf-Ns-5ZG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KuM-QL-0sP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1473" y="-435"/>
         </scene>
         <!--Base Tabbar Controller-->
         <scene sceneID="oPF-rW-TLt">
