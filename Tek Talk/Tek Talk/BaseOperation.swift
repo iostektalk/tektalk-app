@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import Parse
 
 class BaseOperation: NSOperation {
+    
+    var response : [PFObject]?
+    var error : NSError?
     
     // Executing
     internal var _executing: Bool = false

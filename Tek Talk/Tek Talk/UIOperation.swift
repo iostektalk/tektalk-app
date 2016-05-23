@@ -15,8 +15,6 @@ class UIOperation: BaseOperation {
     
     // Public
     var updateUIBlock:UpdateUIBlock?
-    var response : [PFObject]?
-    var error : NSError?
     
     convenience init(updateBlock : UpdateUIBlock) {
         
@@ -26,6 +24,13 @@ class UIOperation: BaseOperation {
     }
     
     override func main() {
+        super.main()
+        
+        // Get data
+        if let op = self.dependencies.first as? EventOperation {
+            self.response = op.response
+            self.error = op.error
+        }
         
         if let updateBlock = self.updateUIBlock {
             updateBlock(self.response, self.error)
