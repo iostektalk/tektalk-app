@@ -31,6 +31,18 @@
 		BAC0568F1CF2CCB0000C34E6 /* RoutesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC0568E1CF2CCB0000C34E6 /* RoutesManager.swift */; };
 		BAC056931CF2D013000C34E6 /* TalkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC056921CF2D013000C34E6 /* TalkDetailViewController.swift */; };
 		BAC056951CF2D01F000C34E6 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC056941CF2D01F000C34E6 /* EventDetailViewController.swift */; };
+		BAC056981CF30841000C34E6 /* ImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC056971CF30841000C34E6 /* ImageOperation.swift */; };
+		BAC0569E1CF30CC5000C34E6 /* FeEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC0569C1CF30CC5000C34E6 /* FeEventCell.swift */; };
+		BAC0569F1CF30CC5000C34E6 /* FeEventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC0569D1CF30CC5000C34E6 /* FeEventCell.xib */; };
+		BAC056A11CF30D78000C34E6 /* sceen_cell_event@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAC056A01CF30D78000C34E6 /* sceen_cell_event@2x.jpg */; };
+		BAC056A41CF30F6B000C34E6 /* FontHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC056A31CF30F6B000C34E6 /* FontHelper.swift */; };
+		BAC056AD1CF32B5D000C34E6 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAC056A61CF32B5D000C34E6 /* Lato-Bold.ttf */; };
+		BAC056AE1CF32B5D000C34E6 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAC056A71CF32B5D000C34E6 /* Lato-Light.ttf */; };
+		BAC056AF1CF32B5D000C34E6 /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAC056A81CF32B5D000C34E6 /* Lato-Medium.ttf */; };
+		BAC056B01CF32B5D000C34E6 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAC056A91CF32B5D000C34E6 /* Lato-Regular.ttf */; };
+		BAC056B11CF32B5D000C34E6 /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAC056AA1CF32B5D000C34E6 /* Lato-Semibold.ttf */; };
+		BAC056B21CF32B5D000C34E6 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAC056AB1CF32B5D000C34E6 /* Lato-Thin.ttf */; };
+		BAC056B31CF32B5D000C34E6 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAC056AC1CF32B5D000C34E6 /* Lato-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +85,18 @@
 		BAC0568E1CF2CCB0000C34E6 /* RoutesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutesManager.swift; sourceTree = "<group>"; };
 		BAC056921CF2D013000C34E6 /* TalkDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkDetailViewController.swift; sourceTree = "<group>"; };
 		BAC056941CF2D01F000C34E6 /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		BAC056971CF30841000C34E6 /* ImageOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageOperation.swift; sourceTree = "<group>"; };
+		BAC0569C1CF30CC5000C34E6 /* FeEventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeEventCell.swift; sourceTree = "<group>"; };
+		BAC0569D1CF30CC5000C34E6 /* FeEventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeEventCell.xib; sourceTree = "<group>"; };
+		BAC056A01CF30D78000C34E6 /* sceen_cell_event@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sceen_cell_event@2x.jpg"; sourceTree = "<group>"; };
+		BAC056A31CF30F6B000C34E6 /* FontHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontHelper.swift; sourceTree = "<group>"; };
+		BAC056A61CF32B5D000C34E6 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		BAC056A71CF32B5D000C34E6 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		BAC056A81CF32B5D000C34E6 /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		BAC056A91CF32B5D000C34E6 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		BAC056AA1CF32B5D000C34E6 /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		BAC056AB1CF32B5D000C34E6 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		BAC056AC1CF32B5D000C34E6 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
 		EC05C96DC0FB932BB237AF3B /* Pods_Tek_Talk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tek_Talk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98B03237F1BEDB410EEDDB6 /* Pods-Tek TalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek TalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD9C537CF7EF83D1AD7FBDD9 /* Pods_Tek_TalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tek_TalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +165,7 @@
 		4CC0F2711CEE16B000683FB0 /* Tek Talk */ = {
 			isa = PBXGroup;
 			children = (
+				BAC056A01CF30D78000C34E6 /* sceen_cell_event@2x.jpg */,
 				BA77B4171CEEFFE300BDD619 /* Constant */,
 				BA77B3FE1CEEF0AA00BDD619 /* Resouse */,
 				BA77B3FD1CEEF09600BDD619 /* AppDelegate */,
@@ -234,6 +259,7 @@
 		BA77B3FE1CEEF0AA00BDD619 /* Resouse */ = {
 			isa = PBXGroup;
 			children = (
+				BAC056A51CF30FA3000C34E6 /* Font */,
 				BA77B4001CEEF0B300BDD619 /* Assets */,
 				BA77B3FF1CEEF0AD00BDD619 /* Storyboard */,
 			);
@@ -286,6 +312,7 @@
 			isa = PBXGroup;
 			children = (
 				BAC0567A1CF2A6AE000C34E6 /* Model */,
+				BAC056991CF30C8A000C34E6 /* View */,
 				BA77B4131CEEFCB000BDD619 /* Utility */,
 				68CBF5B51CEEBC75001A97FA /* Controller */,
 			);
@@ -305,6 +332,7 @@
 			isa = PBXGroup;
 			children = (
 				BA77B4141CEEFDC800BDD619 /* ApplicationHelper.swift */,
+				BAC056A31CF30F6B000C34E6 /* FontHelper.swift */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -404,8 +432,40 @@
 		BAC056961CF303DB000C34E6 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				BAC056971CF30841000C34E6 /* ImageOperation.swift */,
 			);
 			name = Image;
+			sourceTree = "<group>";
+		};
+		BAC056991CF30C8A000C34E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BAC0569B1CF30C97000C34E6 /* Event Cell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BAC0569B1CF30C97000C34E6 /* Event Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BAC0569C1CF30CC5000C34E6 /* FeEventCell.swift */,
+				BAC0569D1CF30CC5000C34E6 /* FeEventCell.xib */,
+			);
+			name = "Event Cell";
+			sourceTree = "<group>";
+		};
+		BAC056A51CF30FA3000C34E6 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BAC056A61CF32B5D000C34E6 /* Lato-Bold.ttf */,
+				BAC056A71CF32B5D000C34E6 /* Lato-Light.ttf */,
+				BAC056A81CF32B5D000C34E6 /* Lato-Medium.ttf */,
+				BAC056A91CF32B5D000C34E6 /* Lato-Regular.ttf */,
+				BAC056AA1CF32B5D000C34E6 /* Lato-Semibold.ttf */,
+				BAC056AB1CF32B5D000C34E6 /* Lato-Thin.ttf */,
+				BAC056AC1CF32B5D000C34E6 /* Lato-ThinItalic.ttf */,
+			);
+			name = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -497,8 +557,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CC0F27D1CEE16B000683FB0 /* LaunchScreen.storyboard in Resources */,
+				BAC056B31CF32B5D000C34E6 /* Lato-ThinItalic.ttf in Resources */,
+				BAC056AF1CF32B5D000C34E6 /* Lato-Medium.ttf in Resources */,
+				BAC056AD1CF32B5D000C34E6 /* Lato-Bold.ttf in Resources */,
+				BAC0569F1CF30CC5000C34E6 /* FeEventCell.xib in Resources */,
+				BAC056B21CF32B5D000C34E6 /* Lato-Thin.ttf in Resources */,
+				BAC056B01CF32B5D000C34E6 /* Lato-Regular.ttf in Resources */,
+				BAC056B11CF32B5D000C34E6 /* Lato-Semibold.ttf in Resources */,
+				BAC056A11CF30D78000C34E6 /* sceen_cell_event@2x.jpg in Resources */,
 				4CC0F27A1CEE16B000683FB0 /* Assets.xcassets in Resources */,
 				4CC0F2781CEE16B000683FB0 /* Main.storyboard in Resources */,
+				BAC056AE1CF32B5D000C34E6 /* Lato-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,6 +678,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC056981CF30841000C34E6 /* ImageOperation.swift in Sources */,
 				68CBF5C11CEEBCA0001A97FA /* BaseNavigationController.swift in Sources */,
 				68CBF5AB1CEEB847001A97FA /* BaseViewController.swift in Sources */,
 				BAC056861CF2A74E000C34E6 /* EventOperation.swift in Sources */,
@@ -620,11 +690,13 @@
 				68CBF5BE1CEEBC75001A97FA /* TalkViewController.swift in Sources */,
 				BAC056931CF2D013000C34E6 /* TalkDetailViewController.swift in Sources */,
 				4CC0F2731CEE16B000683FB0 /* AppDelegate.swift in Sources */,
+				BAC056A41CF30F6B000C34E6 /* FontHelper.swift in Sources */,
 				68CBF5A81CEEB466001A97FA /* BaseTabbarController.swift in Sources */,
 				BAC056951CF2D01F000C34E6 /* EventDetailViewController.swift in Sources */,
 				BAC0568F1CF2CCB0000C34E6 /* RoutesManager.swift in Sources */,
 				BAC0568C1CF2C9BC000C34E6 /* BaseViewModel.swift in Sources */,
 				BA77B4151CEEFDC800BDD619 /* ApplicationHelper.swift in Sources */,
+				BAC0569E1CF30CC5000C34E6 /* FeEventCell.swift in Sources */,
 				68CBF5BD1CEEBC75001A97FA /* EventViewController.swift in Sources */,
 				BAC056891CF2AEAB000C34E6 /* UIOperation.swift in Sources */,
 			);

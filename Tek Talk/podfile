@@ -6,6 +6,7 @@ use_frameworks!
 def important_pods
     pod 'Parse'
     pod 'CocoaLumberjack'
+    pod 'Nuke'
 end
 
 def test_pods
