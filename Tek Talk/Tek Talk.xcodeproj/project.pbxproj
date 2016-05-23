@@ -22,6 +22,10 @@
 		BA77B40C1CEEF3E200BDD619 /* Tek_TalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77B40B1CEEF3E200BDD619 /* Tek_TalkTests.swift */; };
 		BA77B4151CEEFDC800BDD619 /* ApplicationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77B4141CEEFDC800BDD619 /* ApplicationHelper.swift */; };
 		BA77B4191CEEFFEF00BDD619 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77B4181CEEFFEF00BDD619 /* Constant.swift */; };
+		BAC0567D1CF2A6F8000C34E6 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC0567C1CF2A6F8000C34E6 /* EventViewModel.swift */; };
+		BAC0567F1CF2A712000C34E6 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC0567E1CF2A712000C34E6 /* APIManager.swift */; };
+		BAC056831CF2A733000C34E6 /* BaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC056821CF2A733000C34E6 /* BaseOperation.swift */; };
+		BAC056861CF2A74E000C34E6 /* EventOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC056851CF2A74E000C34E6 /* EventOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		BA77B40D1CEEF3E200BDD619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA77B4141CEEFDC800BDD619 /* ApplicationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationHelper.swift; sourceTree = "<group>"; };
 		BA77B4181CEEFFEF00BDD619 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BAC0567C1CF2A6F8000C34E6 /* EventViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
+		BAC0567E1CF2A712000C34E6 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		BAC056821CF2A733000C34E6 /* BaseOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseOperation.swift; sourceTree = "<group>"; };
+		BAC056851CF2A74E000C34E6 /* EventOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventOperation.swift; sourceTree = "<group>"; };
 		EC05C96DC0FB932BB237AF3B /* Pods_Tek_Talk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tek_Talk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98B03237F1BEDB410EEDDB6 /* Pods-Tek TalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek TalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD9C537CF7EF83D1AD7FBDD9 /* Pods_Tek_TalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tek_TalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,6 +178,7 @@
 		68CBF5B81CEEBC75001A97FA /* EventViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BAC0567C1CF2A6F8000C34E6 /* EventViewModel.swift */,
 				68CBF5B91CEEBC75001A97FA /* EventViewController.swift */,
 			);
 			path = EventViewController;
@@ -248,6 +257,7 @@
 		BA77B4021CEEF0DD00BDD619 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BAC056811CF2A721000C34E6 /* Operation */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -262,6 +272,7 @@
 		BA77B4041CEEF0E800BDD619 /* Source code */ = {
 			isa = PBXGroup;
 			children = (
+				BAC0567A1CF2A6AE000C34E6 /* Model */,
 				BA77B4131CEEFCB000BDD619 /* Utility */,
 				68CBF5B51CEEBC75001A97FA /* Controller */,
 			);
@@ -291,6 +302,47 @@
 				BA77B4181CEEFFEF00BDD619 /* Constant.swift */,
 			);
 			name = Constant;
+			sourceTree = "<group>";
+		};
+		BAC0567A1CF2A6AE000C34E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAC056801CF2A715000C34E6 /* Operation */,
+				BAC0567B1CF2A6B4000C34E6 /* APIManager */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BAC0567B1CF2A6B4000C34E6 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				BAC0567E1CF2A712000C34E6 /* APIManager.swift */,
+			);
+			name = APIManager;
+			sourceTree = "<group>";
+		};
+		BAC056801CF2A715000C34E6 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				BAC056841CF2A73B000C34E6 /* Event */,
+			);
+			name = Operation;
+			sourceTree = "<group>";
+		};
+		BAC056811CF2A721000C34E6 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				BAC056821CF2A733000C34E6 /* BaseOperation.swift */,
+			);
+			name = Operation;
+			sourceTree = "<group>";
+		};
+		BAC056841CF2A73B000C34E6 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				BAC056851CF2A74E000C34E6 /* EventOperation.swift */,
+			);
+			name = Event;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -496,8 +548,12 @@
 			files = (
 				68CBF5C11CEEBCA0001A97FA /* BaseNavigationController.swift in Sources */,
 				68CBF5AB1CEEB847001A97FA /* BaseViewController.swift in Sources */,
+				BAC056861CF2A74E000C34E6 /* EventOperation.swift in Sources */,
 				BA77B4191CEEFFEF00BDD619 /* Constant.swift in Sources */,
+				BAC0567D1CF2A6F8000C34E6 /* EventViewModel.swift in Sources */,
+				BAC0567F1CF2A712000C34E6 /* APIManager.swift in Sources */,
 				68CBF5BC1CEEBC75001A97FA /* ContactUsViewController.swift in Sources */,
+				BAC056831CF2A733000C34E6 /* BaseOperation.swift in Sources */,
 				68CBF5BE1CEEBC75001A97FA /* TalkViewController.swift in Sources */,
 				4CC0F2731CEE16B000683FB0 /* AppDelegate.swift in Sources */,
 				68CBF5A81CEEB466001A97FA /* BaseTabbarController.swift in Sources */,
