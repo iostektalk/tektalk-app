@@ -41,18 +41,8 @@ class BaseOperation: NSOperation {
     }
     
     // Async
-    internal var _asynchronous: Bool = false;
     override var asynchronous: Bool {
-        get {
-            return _asynchronous
-        }
-        set {
-            if _asynchronous != newValue {
-                willChangeValueForKey("isAsynchronous")
-                _asynchronous = newValue
-                didChangeValueForKey("isAsynchronous")
-            }
-        }
+        return false
     }
     
     // Main
