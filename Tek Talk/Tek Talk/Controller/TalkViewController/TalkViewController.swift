@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 import Parse
-
+import Nuke
 class TalkViewController: BaseViewController, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView?
@@ -59,15 +59,22 @@ class TalkViewController: BaseViewController, UITableViewDelegate {
         let cell = tableView.dequeueReusableCellWithIdentifier("TalkCell") as? TalkCell
         let talkObj = self.talksData[indexPath.row]
         
+        cell?.imgAvatar?.nk_cancelLoading()
+        cell?.imgAvatar?.image = nil;
+        cell?.lbDescriptionTekTalk?.text = talkObj["shortDescription"] as? String
+        cell?.lbNameTekTalk?.text = talkObj["subject"] as? String
+        cell?.bgAvatar?.nk_setImageWith(NSURL(string:talkObj["background"] as! String)!)
+        
         // Speaker
         if let speaker = talkObj["speaker"] as? PFObject {
-            
+            cell?.imgAvatar?.nk_setImageWith(NSURL(string:speaker["avatar"] as! String )!)
         }
-        
+//        
         //Video
         if let video = talkObj["videos"] as? PFObject {
             print("")
         }
+        
         
         return cell!
     }

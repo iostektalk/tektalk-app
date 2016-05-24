@@ -28,5 +28,4 @@ class EventViewController: BaseViewController {
         super.viewWillAppear(animated)
         
     }
-    
 }

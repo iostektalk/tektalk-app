@@ -12,15 +12,17 @@
 		4CC0F27A1CEE16B000683FB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F2791CEE16B000683FB0 /* Assets.xcassets */; };
 		4CC0F27D1CEE16B000683FB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0F27B1CEE16B000683FB0 /* LaunchScreen.storyboard */; };
 		4DD27F252ECC28BFB5609BC0 /* Pods_Tek_TalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9C537CF7EF83D1AD7FBDD9 /* Pods_Tek_TalkTests.framework */; };
-		68338DD11CF3E5C400FB2E47 /* TalkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68338DCF1CF3E5C400FB2E47 /* TalkCell.swift */; };
-		68338DD21CF3E5C400FB2E47 /* TalkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68338DD01CF3E5C400FB2E47 /* TalkCell.xib */; };
-		68338DD51CF3E5E200FB2E47 /* TalksOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68338DD41CF3E5E200FB2E47 /* TalksOperation.swift */; };
+		68378B301CF2ED43007AFD2E /* TalksOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68378B2F1CF2ED43007AFD2E /* TalksOperation.swift */; };
 		68CBF5A81CEEB466001A97FA /* BaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5A71CEEB466001A97FA /* BaseTabbarController.swift */; };
 		68CBF5AB1CEEB847001A97FA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5AA1CEEB847001A97FA /* BaseViewController.swift */; };
 		68CBF5BC1CEEBC75001A97FA /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5B71CEEBC75001A97FA /* ContactUsViewController.swift */; };
 		68CBF5BD1CEEBC75001A97FA /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5B91CEEBC75001A97FA /* EventViewController.swift */; };
 		68CBF5BE1CEEBC75001A97FA /* TalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5BB1CEEBC75001A97FA /* TalkViewController.swift */; };
 		68CBF5C11CEEBCA0001A97FA /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBF5C01CEEBCA0001A97FA /* BaseNavigationController.swift */; };
+		68E0943A1CF2EBDF0029510F /* TalkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E094381CF2EBDF0029510F /* TalkCell.swift */; };
+		68E0943B1CF2EBDF0029510F /* TalkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68E094391CF2EBDF0029510F /* TalkCell.xib */; };
+		68E0943D1CF2EBFA0029510F /* TalkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E0943C1CF2EBFA0029510F /* TalkModel.swift */; };
+		68E0943F1CF2EC3D0029510F /* Video.json in Resources */ = {isa = PBXBuildFile; fileRef = 68E0943E1CF2EC3D0029510F /* Video.json */; };
 		7083419CE4E44DD4350733FD /* Pods_Tek_Talk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC05C96DC0FB932BB237AF3B /* Pods_Tek_Talk.framework */; };
 		BA77B40C1CEEF3E200BDD619 /* Tek_TalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77B40B1CEEF3E200BDD619 /* Tek_TalkTests.swift */; };
 		BA77B4151CEEFDC800BDD619 /* ApplicationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77B4141CEEFDC800BDD619 /* ApplicationHelper.swift */; };
@@ -68,15 +70,17 @@
 		4F6686D7FA441C37C0579023 /* Pods-Tek Talk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek Talk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tek Talk/Pods-Tek Talk.release.xcconfig"; sourceTree = "<group>"; };
 		50BA580E60E8905BC7FC22A9 /* Pods-Tek Talk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek Talk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tek Talk/Pods-Tek Talk.debug.xcconfig"; sourceTree = "<group>"; };
 		653471777C857C4F85B4F88F /* Pods-Tek TalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tek TalkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tek TalkTests/Pods-Tek TalkTests.release.xcconfig"; sourceTree = "<group>"; };
-		68338DCF1CF3E5C400FB2E47 /* TalkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkCell.swift; sourceTree = "<group>"; };
-		68338DD01CF3E5C400FB2E47 /* TalkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkCell.xib; sourceTree = "<group>"; };
-		68338DD41CF3E5E200FB2E47 /* TalksOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalksOperation.swift; sourceTree = "<group>"; };
+		68378B2F1CF2ED43007AFD2E /* TalksOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalksOperation.swift; sourceTree = "<group>"; };
 		68CBF5A71CEEB466001A97FA /* BaseTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabbarController.swift; sourceTree = "<group>"; };
 		68CBF5AA1CEEB847001A97FA /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		68CBF5B71CEEBC75001A97FA /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
 		68CBF5B91CEEBC75001A97FA /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		68CBF5BB1CEEBC75001A97FA /* TalkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkViewController.swift; sourceTree = "<group>"; };
 		68CBF5C01CEEBCA0001A97FA /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		68E094381CF2EBDF0029510F /* TalkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkCell.swift; sourceTree = "<group>"; };
+		68E094391CF2EBDF0029510F /* TalkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkCell.xib; sourceTree = "<group>"; };
+		68E0943C1CF2EBFA0029510F /* TalkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkModel.swift; sourceTree = "<group>"; };
+		68E0943E1CF2EC3D0029510F /* Video.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Video.json; sourceTree = "<group>"; };
 		BA77B4091CEEF3E200BDD619 /* Tek TalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tek TalkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA77B40B1CEEF3E200BDD619 /* Tek_TalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tek_TalkTests.swift; sourceTree = "<group>"; };
 		BA77B40D1CEEF3E200BDD619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -182,13 +186,12 @@
 			path = "Tek Talk";
 			sourceTree = "<group>";
 		};
-		68338DD31CF3E5C600FB2E47 /* TalkCell */ = {
+		68378B2E1CF2ED32007AFD2E /* Talks */ = {
 			isa = PBXGroup;
 			children = (
-				68338DCF1CF3E5C400FB2E47 /* TalkCell.swift */,
-				68338DD01CF3E5C400FB2E47 /* TalkCell.xib */,
+				68378B2F1CF2ED43007AFD2E /* TalksOperation.swift */,
 			);
-			name = TalkCell;
+			name = Talks;
 			sourceTree = "<group>";
 		};
 		68CBF5A61CEEB45B001A97FA /* BaseTabbarController */ = {
@@ -311,6 +314,8 @@
 		BA77B4021CEEF0DD00BDD619 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				68E0943E1CF2EC3D0029510F /* Video.json */,
+				68E0943C1CF2EBFA0029510F /* TalkModel.swift */,
 				BAC056811CF2A721000C34E6 /* Operation */,
 			);
 			name = Model;
@@ -319,6 +324,8 @@
 		BA77B4031CEEF0E100BDD619 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				68E094381CF2EBDF0029510F /* TalkCell.swift */,
+				68E094391CF2EBDF0029510F /* TalkCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -381,8 +388,11 @@
 		BAC056801CF2A715000C34E6 /* Operation */ = {
 			isa = PBXGroup;
 			children = (
-				68338DD41CF3E5E200FB2E47 /* TalksOperation.swift */,
+<<<<<<< HEAD
+				68378B2E1CF2ED32007AFD2E /* Talks */,
+=======
 				BAC056961CF303DB000C34E6 /* Image */,
+>>>>>>> master
 				BAC056871CF2AE9D000C34E6 /* UI */,
 				BAC056841CF2A73B000C34E6 /* Event */,
 			);
@@ -456,7 +466,6 @@
 		BAC056991CF30C8A000C34E6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				68338DD31CF3E5C600FB2E47 /* TalkCell */,
 				BAC0569B1CF30C97000C34E6 /* Event Cell */,
 			);
 			name = View;
@@ -574,6 +583,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CC0F27D1CEE16B000683FB0 /* LaunchScreen.storyboard in Resources */,
+<<<<<<< HEAD
+				68E0943B1CF2EBDF0029510F /* TalkCell.xib in Resources */,
+				68E0943F1CF2EC3D0029510F /* Video.json in Resources */,
+=======
 				BAC056B31CF32B5D000C34E6 /* Lato-ThinItalic.ttf in Resources */,
 				BAC056AF1CF32B5D000C34E6 /* Lato-Medium.ttf in Resources */,
 				BAC056AD1CF32B5D000C34E6 /* Lato-Bold.ttf in Resources */,
@@ -582,9 +595,9 @@
 				BAC056B01CF32B5D000C34E6 /* Lato-Regular.ttf in Resources */,
 				BAC056B11CF32B5D000C34E6 /* Lato-Semibold.ttf in Resources */,
 				BAC056A11CF30D78000C34E6 /* sceen_cell_event@2x.jpg in Resources */,
+>>>>>>> master
 				4CC0F27A1CEE16B000683FB0 /* Assets.xcassets in Resources */,
 				4CC0F2781CEE16B000683FB0 /* Main.storyboard in Resources */,
-				68338DD21CF3E5C400FB2E47 /* TalkCell.xib in Resources */,
 				BAC056AE1CF32B5D000C34E6 /* Lato-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -701,7 +714,6 @@
 				68CBF5AB1CEEB847001A97FA /* BaseViewController.swift in Sources */,
 				BAC056861CF2A74E000C34E6 /* EventOperation.swift in Sources */,
 				BA77B4191CEEFFEF00BDD619 /* Constant.swift in Sources */,
-				68338DD11CF3E5C400FB2E47 /* TalkCell.swift in Sources */,
 				BAC0567D1CF2A6F8000C34E6 /* EventViewModel.swift in Sources */,
 				BAC0567F1CF2A712000C34E6 /* APIManager.swift in Sources */,
 				68CBF5BC1CEEBC75001A97FA /* ContactUsViewController.swift in Sources */,
@@ -709,11 +721,16 @@
 				68CBF5BE1CEEBC75001A97FA /* TalkViewController.swift in Sources */,
 				BAC056931CF2D013000C34E6 /* TalkDetailViewController.swift in Sources */,
 				4CC0F2731CEE16B000683FB0 /* AppDelegate.swift in Sources */,
+<<<<<<< HEAD
+				68E0943D1CF2EBFA0029510F /* TalkModel.swift in Sources */,
+=======
 				BAC056A41CF30F6B000C34E6 /* FontHelper.swift in Sources */,
-				68338DD51CF3E5E200FB2E47 /* TalksOperation.swift in Sources */,
+>>>>>>> master
 				68CBF5A81CEEB466001A97FA /* BaseTabbarController.swift in Sources */,
 				BAC056951CF2D01F000C34E6 /* EventDetailViewController.swift in Sources */,
 				BAC0568F1CF2CCB0000C34E6 /* RoutesManager.swift in Sources */,
+				68378B301CF2ED43007AFD2E /* TalksOperation.swift in Sources */,
+				68E0943A1CF2EBDF0029510F /* TalkCell.swift in Sources */,
 				BAC0568C1CF2C9BC000C34E6 /* BaseViewModel.swift in Sources */,
 				BA77B4151CEEFDC800BDD619 /* ApplicationHelper.swift in Sources */,
 				BAC0569E1CF30CC5000C34E6 /* FeEventCell.swift in Sources */,

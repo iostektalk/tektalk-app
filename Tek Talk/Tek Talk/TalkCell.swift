@@ -13,7 +13,7 @@ class TalkCell: UITableViewCell {
     @IBOutlet weak var lbNameTekTalk: UILabel?
     @IBOutlet weak var lbDescriptionTekTalk: UILabel?
     @IBOutlet weak var imgAvatar: UIImageView?
-    
+    @IBOutlet weak var bgAvatar: UIImageView?
     override func awakeFromNib() {
         super.awakeFromNib()
         self.lbNameTekTalk?.adjustsFontSizeToFitWidth = true

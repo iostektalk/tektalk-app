@@ -45,6 +45,11 @@ extension EventViewModel :  UITableViewDataSource, UITableViewDelegate {
         
         cell?.backgroundColor = UIColor.redColor()
         
+        let obj = self.arrEvents![indexPath.row]
+        let tags = obj["tags"]
+        
+//        print(tags)
+        
         return cell!
     }
     
